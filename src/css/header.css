@@ -1,10 +1,51 @@
 @import url("main.css");
 
-header {
+header p {
+	color: #ffffff;
+	position: relative;
+	margin: 0 0 1.5em 0;
+}
+
+header h2 + p {
+	font-size: 1.25em;
+	margin-top: -1em;
+	line-height: 1.75em;
+}
+
+header h3 + p {
+	font-size: 1.1em;
+	margin-top: -0.8em;
+	line-height: 1.75em;
+}
+
+header h4 + p,
+header h5 + p,
+header h6 + p {
+	font-size: 0.9em;
+	margin-top: -0.6em;
+	line-height: 1.5em;
+}
+
+header.major {
+	margin: 0 0 4em 0;
+	position: relative;
+	text-align: center;
+}
+
+	header.major:after {
+		background: #d13c3c;
+		content: '';
+		display: inline-block;
+		height: 0.2em;
+		max-width: 20em;
+		width: 75%;
+	}
+
+
+
+#header {
+	display: flex;
 	background: #161414;
-	padding: 0em 0;
-	text-align: left;
-/*	background: rgba(0, 0, 0, 0);*/
 	cursor: default;
 	height: 3.5em;
 	left: 0;
@@ -15,34 +56,31 @@ header {
 	z-index: 100;
 }
 
-	header h1 {
+	#header h1 {
 		height: inherit;
 		left: 1.25em;
 		line-height: inherit;
 		margin: 0;
-		position: relative;
+		position: absolute;
 		top: 0;
 	}
-		header h1 logo {
-			height: 3em;
-		}
 
-	header nav {
+	#header nav {
 		position: absolute;
 		right: 1em;
 		top: 0;
 	}
 
-		header nav ul {
+		#header nav ul {
 			margin: 0;
 		}
 
-			header nav ul li {
+			#header nav ul li {
 				display: inline-block;
 				margin-left: 1em;
 			}
 
-				header nav ul li a, header nav ul li span {
+				#header nav ul li a, #header nav ul li span {
 					border: 0;
 					color: inherit;
 					display: inline-block;
@@ -51,20 +89,20 @@ header {
 					outline: 0;
 				}
 
-					header nav ul li a.button, header nav ul li span.button {
+					#header nav ul li a.button, #header nav ul li span.button {
 						height: 2em;
 						line-height: 2em;
 						padding: 0 1.25em;
 					}
 
-					header nav ul li a:not(.button):before, header nav ul li span:not(.button):before {
+					#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
 						margin-right: 0.5em;
 					}
 
-				header nav ul li.active > a, header nav ul li.active > span {
+				#header nav ul li.active > a, #header nav ul li.active > span {
 					color: #d13c3c;
 				}
 
-				header nav ul li > ul {
+				#header nav ul li > ul {
 					display: none;
 				}

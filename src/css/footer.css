@@ -1,5 +1,9 @@
 @import url("main.css");
 
+footer.major {
+	margin: 4em 0 0 0;
+}
+
 ul.icons {
 		cursor: default;
 		list-style: none;
@@ -8,30 +12,34 @@ ul.icons {
 
 		ul.icons li {
 			display: inline-block;
-			height: 2.5em;
-			line-height: 2.5em;
-			padding: 0 0.5em;
+			height: 2em;
+			line-height: 2em;
+			padding: 0 0.25em;
 		}
 
 			ul.icons li .icon {
-				font-size: 0.8em;
+				font-size: 1.5em;
 			}
 
 				ul.icons li .icon:before {
-					font-size: 2em;
+					font-size: 1em;
 				}
 
-footer {
+				ul.icons li. .icon:hover{
+					color: #d13c3c;
+				}
+
+#footer {
 		background: #161414;
 		padding: 0em 0;
 		text-align: left;
 	}
 
-		footer .icons .icon.alt {
+		#footer .icons .icon.alt {
 			text-decoration: none;
 		}
 
-			footer .icons .icon.alt:before {
+			#footer .icons .icon.alt:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;

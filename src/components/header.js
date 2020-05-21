@@ -6,22 +6,21 @@ import Logo from "./logo"
 import "../css/header.css"
 
 const Header = ({ }) => (
-  <header>
-    <div>
-      <h1 class="logo">
-        <a href="/">
-          <Logo/>
-        </a>
+  <header id="header">
+      <h1 id="logo">
+        <div style={{ width: '100%' }}>
+          <a href="/">
+            <Logo/>
+          </a>
+        </div>
       </h1>
       <nav id="nav">
-          <a href="" class="scrolly">Why Us</a>
-          <a href="" class="scrolly">Industry</a>
-          <a href="" class="scrolly">Investments</a>
-          <a href="" class="scrolly">Contact Us</a>
+          <a href="">Why Us</a>
+          <a href="">Industry</a>
+          <a href="">Investments</a>
+          <a href="">Contact Us</a>
           <a href="" class="button primary">Sign In</a>
       </nav>
-
-    </div>
   </header>
 )
 
