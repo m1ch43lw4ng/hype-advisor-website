@@ -1,6 +1,6 @@
 # The Hype Advisor
 
-**Install Gatsby**: `npm install -g gatsby-cli`
+**Install Gatsby**: `npm install gatsby-cli`
 
 **Install dependencies**: `yarn`
 
