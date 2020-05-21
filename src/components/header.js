@@ -8,12 +8,19 @@ import "../css/header.css"
 const Header = ({ }) => (
   <header>
     <div>
-      <h1>
+      <h1 id="logo">
         <Link to="/">
           <Logo/>
-          {/* Fix Header here */}
         </Link>
       </h1>
+      <nav id="nav">
+          <a href="" class="scrolly">Why Us</a>
+          <a href="" class="scrolly">Industry</a>
+          <a href="" class="scrolly">Investments</a>
+          <a href="" class="scrolly">Contact Us</a>
+          <a href="" class="button primary">Sign In</a>
+      </nav>
+
     </div>
   </header>
 )
