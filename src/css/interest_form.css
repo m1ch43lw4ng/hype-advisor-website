@@ -1,0 +1,22 @@
+#interest-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#left-bar {
+  padding-left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+#right-bar {
+  padding-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
+}
+
+#interest-form {
+  width: 100%;
+}
