@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import Logo from "./logo"
 
+import "../css/header.css"
+
 const Header = ({ }) => (
   <header>
     <div>
