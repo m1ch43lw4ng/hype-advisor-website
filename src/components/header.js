@@ -8,10 +8,10 @@ import "../css/header.css"
 const Header = ({ }) => (
   <header>
     <div>
-      <h1 id="logo">
-        <Link to="/">
+      <h1 class="logo">
+        <a href="/">
           <Logo/>
-        </Link>
+        </a>
       </h1>
       <nav id="nav">
           <a href="" class="scrolly">Why Us</a>
