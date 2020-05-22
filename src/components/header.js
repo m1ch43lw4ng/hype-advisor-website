@@ -6,22 +6,20 @@ import Logo from "./logo"
 import "../css/header.css"
 
 const Header = ({ }) => (
-  <header id="header">
-      <h1 id="logo">
-        <div style={{ width: '100%' }}>
-          <a href="/">
-            <Logo/>
-          </a>
-        </div>
-      </h1>
-      <nav id="nav">
-          <a href="">Why Us</a>
-          <a href="">Industry</a>
-          <a href="">Investments</a>
-          <a href="">Contact Us</a>
-          <a href="" class="button primary">Sign In</a>
-      </nav>
-  </header>
+  <ul class="header">
+      <li class="logo">
+        <a href="/">
+          <Logo/>
+        </a>
+      </li>
+      <ul class="nav">
+          <li class="nav-item"><a href="">Why Us</a></li>
+          <li class="nav-item"><a href="">Industry</a></li>
+          <li class="nav-item"><a href="">Investments</a></li>
+          <li class="nav-item"><a href="">Contact Us</a></li>
+          <li class="nav-item button primary"><a href="">Sign In</a></li>
+      </ul>
+  </ul>
 )
 
 Header.propTypes = {

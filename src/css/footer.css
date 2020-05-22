@@ -1,13 +1,8 @@
 @import url("main.css");
 
-footer.major {
-	margin: 4em 0 0 0;
-}
-
 ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
 	}
 
 		ul.icons li {
@@ -20,18 +15,9 @@ ul.icons {
 			ul.icons li .icon {
 				font-size: 1.5em;
 			}
-
-				ul.icons li .icon:before {
-					font-size: 1em;
-				}
-
-				ul.icons li. .icon:hover{
-					color: #d13c3c;
-				}
-
 #footer {
 		background: #161414;
-		padding: 0em 0;
+/*		padding: 0em 0;*/
 		text-align: left;
 	}
 
@@ -40,11 +26,11 @@ ul.icons {
 		}
 
 			#footer .icons .icon.alt:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
+/*				-moz-osx-font-smoothing: grayscale;*/
+/*				-webkit-font-smoothing: antialiased;*/
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
-				text-transform: none !important;
-				color: rgba(1, 1, 1, 0.9) !important;
+/*				text-transform: none;*/
+				color: rgba(1, 1, 1, 0.9);
 			}
