@@ -6,7 +6,9 @@ $foreground-color: #FFFFFF;
 
 html {
   font-size: 62.5%;
-  // height: 100%;
+  // fix for scroll bar offset
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body {

@@ -10,7 +10,7 @@ $top-space: 6rem;
   padding-left: $top-space;
   padding-top: $top-space/2;
   padding-bottom: $top-space/3;
-  width: calc(100% - #{$top-space}*2);
+  width: calc(100vw - #{$top-space}*2);
 }
 
 .Header-logo {
