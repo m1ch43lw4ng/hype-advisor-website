@@ -1,3 +1,5 @@
+@import url("main.css");
+
 .Footer_container {
 	display: flex;
 	flex-direction: row;
