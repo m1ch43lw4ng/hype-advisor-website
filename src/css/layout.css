@@ -623,4 +623,10 @@
 
 main {
   padding-top: 15rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
+}
+
+#site {
+  background-color: #272832;
 }

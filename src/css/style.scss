@@ -40,11 +40,19 @@ h1 {
   font-weight: bold;
   font-size: 8rem;
   line-height: 10rem;
-  color: #272832;
+  color: $background-color;
   margin-top: -3rem;
-  // margin-bottom: 5rem;
 
   text-shadow: -0.8px 0 white, 0 0.8px white, 0.8px 0 white, 0 -0.8px white;
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: 3.5rem;
+  color: $foreground-color;
 }
 
 // Font that looks like body font but is slightly smaller
@@ -77,7 +85,7 @@ input, textarea {
   border: none;
   border-bottom: 1px solid $foreground-color;
   background-color: $background-color;
-  width: 50%;
+  width: 70%;
   color: $foreground-color;
   &::placeholder {
     color: $foreground-color;

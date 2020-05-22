@@ -1,12 +1,10 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Social_Media from "../components/social_media"
 
 import "../css/interest_form.scss"
-import "../css/style.scss"
 
 const IndexPage = () => (
   <Layout renderFooter={false}>
