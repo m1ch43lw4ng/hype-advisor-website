@@ -1,6 +1,9 @@
 @import './normalize';
 @import url("https://use.typekit.net/scz2cjr.css");
 
+$background-color: #272832;
+$foreground-color: #FFFFFF;
+
 html {
   font-size: 62.5%;
   // height: 100%;
@@ -8,7 +11,7 @@ html {
 
 body {
   // height: 100%;
-  background: #272832;
+  background: $background-color;
   display: flex;
   flex-direction: column;
 }
@@ -35,9 +38,11 @@ h1 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
-  line-height: 142px;
+  font-size: 8rem;
+  line-height: 10rem;
   color: #272832;
+  margin-top: -3rem;
+  // margin-bottom: 5rem;
 
   text-shadow: -0.8px 0 white, 0 0.8px white, 0.8px 0 white, 0 -0.8px white;
 }
@@ -51,7 +56,7 @@ h4 {
   line-height: 2.1rem;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: $foreground-color;
 }
 
 // Body font
@@ -61,19 +66,39 @@ p {
   font-weight: 200;
   font-size: 1.8rem;
   line-height: 2.8rem;
-  color: #FFFFFF;
+  color: $foreground-color;
+}
+
+input, textarea {
+  // margin-left: 1rem;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid $foreground-color;
+  background-color: $background-color;
+  width: 50%;
+  color: $foreground-color;
+  &::placeholder {
+    color: $foreground-color;
+    opacity: 0.64;
+  }
+}
+
+textarea {
+  height: 10vh;
 }
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: $foreground-color;
 }
 
 .button {
-  
+
 }
 
-  .button.primary {
-    text-decoration: underline;
-    border-bottom: dotted 1px;
-  }
+.button.primary {
+  text-decoration: underline;
+  border-bottom: dotted 1px;
+}
