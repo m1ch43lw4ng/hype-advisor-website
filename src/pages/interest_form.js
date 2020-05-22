@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Interest Form" />
     <div id="Interest_Form_interest-div">
       <div id="left-bar">
-        <div id="contact-us"><p>CONTACT US</p></div>
+        <div id="contact-us"><h4>Contact Us</h4></div>
         <div id="address"><p>
           12345 Dwight Way <br/>
           Berkeley, CA 94704 <br/><br/>
@@ -20,8 +20,8 @@ const IndexPage = () => (
 
           team@thehypeadvisor.com
         </p></div>
-        <div id="follow-us"><p>FOLLOW US</p></div>
-        <div class="social-media">#TODO: reuse footer component</div>
+        <div id="follow-us"><h4>Follow Us</h4></div>
+        {/* <div class="social-media">#TODO: reuse footer component</div> */}
       </div>
       <form id="right-bar">
         <h1 id="interest-form">Interest Form</h1>
