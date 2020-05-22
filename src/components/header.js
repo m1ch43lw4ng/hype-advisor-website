@@ -6,18 +6,18 @@ import Logo from "./logo"
 import "../css/header.scss"
 
 const Header = ({ }) => (
-  <header class="Header_container">
-    <div class="Header_logo">
+  <header class="Header-container">
+    <div class="Header-logo">
       <a href="/">
         <Logo/>
       </a>
     </div>
-    <ul class="Header_nav">
-      <li class="Header_nav-item"><a href="/404">Why Us</a></li>
-      <li class="Header_nav-item"><a href="/404">Industry</a></li>
-      <li class="Header_nav-item"><a href="/404">Investments</a></li>
-      <li class="Header_nav-item"><a href="/interest_form">Contact Us</a></li>
-      <li class="Header_nav-item button primary"><a href="/interest_form">SIGN IN</a></li>
+    <ul class="Header-nav">
+      <li class="Header-nav-item"><a href="/404">Why Us</a></li>
+      <li class="Header-nav-item"><a href="/404">Industry</a></li>
+      <li class="Header-nav-item"><a href="/404">Investments</a></li>
+      <li class="Header-nav-item"><a href="/interest_form">Contact Us</a></li>
+      <li class="Header-nav-item button primary"><a href="/interest_form">SIGN IN</a></li>
     </ul>
   </header>
 )

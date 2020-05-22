@@ -1,7 +1,6 @@
 #Interest_Form_interest-div {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 10%;
   flex-direction: row;
 }
 
@@ -15,6 +14,12 @@
 
 #Interest_Form-follow-us {
   margin-top: 20%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+#Interest_Form-social-media {
+  margin-top: 15%;
 }
 
 #right-bar {

@@ -1,41 +1,40 @@
-.Header_container {
+$top-space: 6rem;
+
+.Header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background: #272832;
-  height: 4em;
-  line-height: 2.75em;
+  height: 2rem;
   position: fixed;
   top: 0;
-  width: 100%;
+  padding-left: $top-space;
+  padding-top: $top-space/2;
+  width: calc(100% - #{$top-space}*2);
 }
 
-.Header_logo {
-  padding: 0.25em 0.75em ;
+.Header-logo {
   height: 50px;
   width: 50px;
 }
 
-.Header_nav {
+.Header-nav {
 	list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 0.5em 1.5em;
 }
 
-.Header_nav-item {
+.Header-nav-item {
 	text-align: center;
 	font-size: 1.5em;
-}
-
-	.Header_nav-item a {
+	a {
 	  font-family: soleil;
 	  font-style: normal;
 	  font-weight: 200;
-	  padding: 0.2em 0.5em;
-	}
-
-		.Header_nav-item a:hover{
+	  padding: 0 0.5em;
+		&:hover{
 			background: rgba(255, 255, 255, 0.3);
 		}
+	}
+}

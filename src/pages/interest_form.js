@@ -3,11 +3,13 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Social_Media from "../components/social_media"
+
 import "../css/interest_form.scss"
 import "../css/style.scss"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout renderFooter={false}>
     <SEO title="Interest Form" />
     <div id="Interest_Form_interest-div">
       <div id="left-bar">
@@ -21,7 +23,7 @@ const IndexPage = () => (
           team@thehypeadvisor.com
         </p></div>
         <div id="Interest_Form-follow-us"><h4>Follow Us</h4></div>
-        {/* <div class="social-media">#TODO: reuse footer component</div> */}
+        <Social_Media/>
       </div>
       <form id="right-bar">
         <h1 id="interest-form">Interest Form</h1>
