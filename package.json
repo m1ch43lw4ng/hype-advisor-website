@@ -20,6 +20,8 @@
     "react-helmet": "^6.0.0"
   },
   "devDependencies": {
+    "gatsby-plugin-sass": "^2.3.2",
+    "node-sass": "^4.14.1",
     "prettier": "2.0.5"
   },
   "keywords": [
