@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Logo from "./logo"
 
-import "../css/header.css"
+import "../css/header.scss"
 
 const Header = ({ }) => (
   <header class="Header_container">
@@ -13,11 +13,11 @@ const Header = ({ }) => (
       </a>
     </div>
     <ul class="Header_nav">
-      <li><a href="">Why Us</a></li>
-      <li><a href="">Industry</a></li>
-      <li><a href="">Investments</a></li>
-      <li><a href="">Contact Us</a></li>
-      <li class="button primary"><a href="">SIGN IN</a></li>
+      <li class="Header_nav-item"><a href="">Why Us</a></li>
+      <li class="Header_nav-item"><a href="">Industry</a></li>
+      <li class="Header_nav-item"><a href="">Investments</a></li>
+      <li class="Header_nav-item"><a href="">Contact Us</a></li>
+      <li class="Header_nav-item button primary"><a href="">SIGN IN</a></li>
     </ul>
   </header>
 )

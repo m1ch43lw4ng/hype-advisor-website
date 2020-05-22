@@ -1,0 +1,38 @@
+.Header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #272832;
+  height: 4em;
+  line-height: 2.75em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.Header_logo {
+  padding: 0.25em 0.75em ;
+  height: 40px;
+  width: 40px;
+}
+
+.Header_nav {
+	list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0.5em 1.5em;
+}
+
+.Header_nav-item {
+	text-align: center;
+	font-size: 2em;
+}
+
+	.Header_nav-item a {
+	  padding: 0 0.2em;
+	}
+
+		.Header_nav-item a:hover{
+			background: rgba(255, 255, 255, 0.3);
+		}
