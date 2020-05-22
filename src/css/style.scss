@@ -48,6 +48,17 @@ p {
 }
 
 a {
+  font-family: avenir;
+  font-style: normal;
   color: #FFFFFF;
   text-decoration: none
 }
+
+.button {
+  
+}
+
+  .button.primary {
+    text-decoration: underline;
+    border-bottom: dotted 1px;
+  }
