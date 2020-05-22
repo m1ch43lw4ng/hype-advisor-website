@@ -10,15 +10,3 @@ footer {
   margin: 2em 0 4em 0;
   flex-shrink: 0;
 }
-
-.Footer_icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-	list-style: none;
-}
-
-.Footer_icons a {
-	font-size: 2.5em;
-  padding: 0.25em;
-}
