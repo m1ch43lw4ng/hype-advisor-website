@@ -1,4 +1,4 @@
-.Footer_container {
+footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -8,6 +8,7 @@
 	position: relative;
   width: 100%;
   margin: 2em 0 4em 0;
+  flex-shrink: 0;
 }
 
 .Footer_icons {

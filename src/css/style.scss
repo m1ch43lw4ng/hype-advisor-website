@@ -3,11 +3,28 @@
 
 html {
   font-size: 62.5%;
+  // height: 100%;
 }
 
 body {
+  // height: 100%;
   background: #272832;
+  display: flex;
+  flex-direction: column;
 }
+
+/* start: from Layout.js */
+main {
+  // flex: 1 0 auto;
+  flex-grow: 1;
+}
+
+#site {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* end: from Layout.js */
 
 h1, h2, h3, h4 {
   margin: 0;

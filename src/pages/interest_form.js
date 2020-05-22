@@ -13,8 +13,8 @@ const IndexPage = () => (
       <div id="left-bar">
         <div id="contact-us"><h4>Contact Us</h4></div>
         <div id="address"><p>
-          12345 Dwight Way <br/>
-          Berkeley, CA 94704 <br/><br/>
+          10281 Vicksburg Drive <br/>
+          Cupertino, CA 95132 <br/><br/>
 
           +123 456 789<br/><br/>
 
