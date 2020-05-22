@@ -1,13 +1,13 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-// import Layout from "../components/layout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../css/interest_form.scss"
 import "../css/style.scss"
 
 const IndexPage = () => (
-  <>
+  <Layout>
     <SEO title="Interest Form" />
     <div id="Interest_Form_interest-div">
       <div id="left-bar">
@@ -47,7 +47,7 @@ const IndexPage = () => (
         </section>
       </form>
     </div>
-  </>
+  </Layout>
 )
 
 export default IndexPage
