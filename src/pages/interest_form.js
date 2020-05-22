@@ -3,12 +3,13 @@ import React from "react"
 
 // import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "../css/interest_form.css"
+import "../css/interest_form.scss"
+import "../css/style.scss"
 
 const IndexPage = () => (
   <>
     <SEO title="Interest Form" />
-    <div id="interest-div">
+    <div id="Interest_Form_interest-div">
       <div id="left-bar">
         <div id="contact-us"><p>CONTACT US</p></div>
         <div id="address"><p>
