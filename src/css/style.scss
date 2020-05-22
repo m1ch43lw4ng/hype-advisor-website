@@ -1,4 +1,48 @@
-@use './normalize'
+@import './normalize';
+@import url("https://use.typekit.net/scz2cjr.css");
 
-.test/test {
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #272832;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+// Title font
+h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 142px;
+  color: #272832;
+
+  text-shadow: -0.8px 0 white, 0 0.8px white, 0.8px 0 white, 0 -0.8px white;
+}
+
+// Font that looks like body font but is slightly smaller
+h4 {
+  font-family: soleil;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+// Body font
+p {
+  font-family: soleil;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #FFFFFF;
 }
