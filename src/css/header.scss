@@ -1,28 +1,44 @@
 $top-space: 6rem;
 
 .Header-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  justify-items: center;
   background-color: inherit;
+  grid-template-columns: 1fr auto 1fr;
+
   position: fixed;
   top: 0;
   padding-left: $top-space;
   padding-top: $top-space/2;
   padding-bottom: $top-space/3;
   width: calc(100vw - #{$top-space}*2);
+  z-index: 1;
 }
 
 .Header-logo {
   height: 50px;
   width: 50px;
+  grid-column-start: 2;
+}
+
+.Header-logo-left {
+  // center
+  grid-column-start: 1;
+  margin-right: auto;
+}
+
+.Header-logo-centered {
+  // center
+  grid-column-start: 2;
+  margin: auto;
 }
 
 .Header-nav {
 	list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  grid-column-start: 3;
+  margin-left: auto;
 }
 
 .Header-nav-item {

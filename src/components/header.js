@@ -5,9 +5,9 @@ import Logo from "./logo"
 
 import "../css/header.scss"
 
-const Header = ({ }) => (
+const Header = ({ centeredHeader=false }) => (
   <header class="Header-container">
-    <div class="Header-logo">
+    <div className={"Header-logo " + (centeredHeader ? "Header-logo-centered": "Header-logo-left")}>
       <a href="/">
         <Logo/>
       </a>
@@ -23,11 +23,7 @@ const Header = ({ }) => (
 )
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+  centeredHeader: PropTypes.bool,
 }
 
 export default Header
