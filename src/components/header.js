@@ -14,10 +14,10 @@ const Header = ({ centeredHeader=false }) => (
     </div>
     <ul class="Header-nav">
       <li class="Header-nav-item"><h4><a href="/404">Why Us</a></h4></li>
-      <li class="Header-nav-item"><h4><a href="/404">Industry</a></h4></li>
+      <li class="Header-nav-item"><h4><a href="/industry">Industry</a></h4></li>
       <li class="Header-nav-item"><h4><a href="/404">Investments</a></h4></li>
       <li class="Header-nav-item"><h4><a href="/interest_form">Contact Us</a></h4></li>
-      <li class="Header-nav-item button primary"><h4><a href="/interest_form">SIGN IN</a></h4></li>
+      <li class="Header-nav-item button primary"><h4><a href="/404">SIGN IN</a></h4></li>
     </ul>
   </header>
 )
