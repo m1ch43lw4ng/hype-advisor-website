@@ -12,3 +12,50 @@
 	position: relative;
 	text-align: center;
 }
+
+#landing-container {
+	position: absolute;
+	top: 10%;
+	bottom: 0px;
+	left: 50%;
+	width: 1000px;
+	transform: translateX(-50%);
+}
+
+#title {
+	font-family: HelveticaNeue;
+	font-weight: bold;
+	font-size: 150px;
+	line-height: 112px;
+	text-align: left;
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	color: #FFFFFF;
+}
+
+#subtitle {
+	font-family: HelveticaNeue;
+	font-weight: bold;
+	font-size: 4rem;
+	line-height: 6rem;
+	text-align: left;
+	position: absolute;
+	bottom: 100px;
+	left: 0px;
+	color: #C0C0C0;
+}
+
+#arrow {
+	color: white;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 12px;
+}
+
+#arrow:hover {
+	cursor: pointer;
+}
