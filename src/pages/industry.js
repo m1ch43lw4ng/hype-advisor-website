@@ -1,4 +1,5 @@
 import React from "react"
+import Chart from "../components/chart"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -16,6 +17,8 @@ const IndexPage = () => (
         Limited-edition sneakers have become the hottest commodity of our generation. Selling out within seconds, Jordans and Yeezys alike have unbelievably high demand, leading them to fetch thousands on the secondary resale market. Recently, more and more people have taken notice of its potential as an investment, and we are pioneering this movement.
       </p>
     </div>
+
+    <Chart/>
 
     <div class="Industry-Paragraph">
       <h2>Exploding industry without limits</h2>
