@@ -30,7 +30,7 @@ Josh Luber - “Sneakers are this thing where first of all, it's a pure supply a
     </div>
 
     <div class="Industry-Paragraph">
-      <h2>Here are the opportunities The Hype Advisor provides for you:</h2>
+      <h2>Here are the opportunities <i>The Hype Advisor</i> provides for you:</h2>
       <p>
         <b>Diversification.</b> For the longest time, investors have been limited to investing in stocks and bonds. Now, diversification outside these traditional markets and into the streetwear market is now possible. 
       </p>
@@ -42,7 +42,7 @@ Josh Luber - “Sneakers are this thing where first of all, it's a pure supply a
     <div class="Industry-Paragraph">
       <h2>Here’s how we take advantage of this market</h2>
       <p>
-        The Hype Advisor employs a fundamental research-intensive approach to streetwear investment with the ambition to analyze and <b>make projections for any sneaker</b> on the market.
+        <i>The Hype Advisor</i> employs a fundamental research-intensive approach to streetwear investment with the ambition to analyze and <b>make projections for any sneaker</b> on the market.
         <br/><br/>
         Data has become <b>the core of decision-making</b> in the streetwear industry, whether it be on the consumer or reseller side. Hundreds of thousands of users flock to websites such as StockX and Goat daily to analyze a streetwear item’s performance on the resale market. Millennials of our generation often consult social media accounts for resale predictions and future profitability.
         <br/><br/>

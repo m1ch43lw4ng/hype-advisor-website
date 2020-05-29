@@ -1,3 +1,28 @@
 .About-Paragraph {
   margin-top: 7rem;
 }
+
+.About-values-wrapper {
+	display: flex;
+	padding: 2em;
+
+}
+
+.About-values-item {
+	padding: 1em 3em 1em 3em;
+	text-align: center;
+}
+
+.About-values-icon-wrapper {
+	display: inline-block;
+	width: 125px;
+	height: 125px;
+	background: #4E5064; 
+	-moz-border-radius: 62.5px; 
+	-webkit-border-radius: 62.5px; 
+	border-radius: 62.5px;
+}
+
+.About-values-icon {
+	margin-top: 25px;
+}
