@@ -8,10 +8,10 @@ $top-space: 6rem;
 
   position: fixed;
   top: 0;
-  padding-left: $top-space;
-  padding-top: $top-space/2;
+  padding-left: $top-space/3;
+  padding-top: $top-space/3;
   padding-bottom: $top-space/3;
-  width: calc(100vw - #{$top-space}*2);
+  width: calc(100vw - #{$top-space});
   z-index: 1;
 }
 
