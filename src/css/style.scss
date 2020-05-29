@@ -2,7 +2,8 @@
 @import url("https://use.typekit.net/scz2cjr.css");
 
 $background-color: #272832;
-$foreground-color: #FFFFFF;
+$foreground-color: rgba(255, 255, 255, 0.8);
+$bold-color: rgba(255, 255, 255, 1);
 
 html {
   font-size: 62.5%;
@@ -45,7 +46,7 @@ h1 {
   color: $background-color;
   margin-top: -3rem;
 
-  text-shadow: -0.8px 0 white, 0 0.8px white, 0.8px 0 white, 0 -0.8px white;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h2 {
@@ -54,7 +55,7 @@ h2 {
   font-weight: bold;
   font-size: 2.6rem;
   line-height: 3.5rem;
-  color: $foreground-color;
+  color: $bold-color;
 }
 
 // Font that looks like body font but is slightly smaller
@@ -99,9 +100,14 @@ textarea {
   height: 10vh;
 }
 
+b {
+  color: $bold-color;
+
+}
+
 a {
   text-decoration: none;
-  color: $foreground-color;
+  color: $bold-color;
 }
 
 .button {

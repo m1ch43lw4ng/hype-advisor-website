@@ -10,7 +10,7 @@ const Chart = ({ }) => (
 	    <script src={withPrefix('chart.js')} type="text/javascript"></script>
 	  </Helmet>
 	  <div id="chart"></div>
-	 </>
+	</>
 )
 
 export default Chart
