@@ -50,7 +50,18 @@ From then on, we formed <i>The Hype Advisor</i>, a team of streetwear experts wh
     </div>
 
     <div class="About-Paragraph">
-      <h2>Words simply aren’t enough. Our team created a hedge fund operating in this market, and here’s how we performed.</h2>
+      <h2>Words simply aren’t enough. Our team created a hedge fund operating in this market, and here’s how we performed during our 6 months.</h2>
+    </div>
+
+    <div class="About-Paragraph">
+      <img src={withPrefix("roi-comp.png")} class="About-roi-comp"></img>
+      <p>Our results:
+        <ul>
+          <li>The Hype Fund: 10% ROI over 6 months</li>
+          <li>The DOW: -10% ROI buying and selling at the same time</li>
+        </ul>
+      The next few tabs detail how we were able to do so well, but first:
+      </p>
     </div>
 
     <div class="About-Paragraph">
