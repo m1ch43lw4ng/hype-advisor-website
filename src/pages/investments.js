@@ -4,14 +4,14 @@ import { withPrefix } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import "../css/about.scss"
+import "../css/investments.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="About - WHy Us?" />
-    <h1>About - Why Us?</h1>
+    <SEO title="Our Investments" />
+    <h1>Our Investments</h1>
 
-    <div class="About-Paragraph">
+    <div class="Investments-Paragraph">
       <p>
         Streetwear has not received the amount of attention it deserves.
 When people think of investing, they think of stocks, real estate, and bonds. However, we firmly believe that streetwear is just as, if not more, viable of an investment option.
@@ -23,11 +23,11 @@ From then on, we formed <i>The Hype Advisor</i>, a team of streetwear experts wh
       </p>
     </div>
 
-    <div class="About-Paragraph">
+    <div class="Investments-Paragraph">
       <h2>Words simply aren’t enough. Our team created a hedge fund operating in this market, and here’s how we performed during our 6 months.</h2>
     </div>
 
-    <div class="About-Paragraph">
+    <div class="Investments-Paragraph">
       <img src={withPrefix("roi-comp.png")} class="About-roi-comp"></img>
       <p>Our results:
         <ul>
@@ -38,7 +38,7 @@ From then on, we formed <i>The Hype Advisor</i>, a team of streetwear experts wh
       </p>
     </div>
 
-    <div class="About-Paragraph">
+    <div class="Investments-Paragraph">
       <h2>Our Values and Mission</h2>
       <p>
         As <i>The Hype Advisor</i>, we aim to open up the doors of investment to anyone, regardless of your past experience. Finally, an <b>unsaturated investing service that anyone can participate in</b>.
