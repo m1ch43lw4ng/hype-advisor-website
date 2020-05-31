@@ -44,6 +44,20 @@
 
 #arrow:hover {
 	cursor: pointer;
+	-webkit-animation: 0.6s ease 0s normal forwards 1 fadein;
+    animation: 0.6s ease 0s normal forwards 1 fadein;
+}
+
+#arrow:focus {outline:0;}
+
+@keyframes fadein{
+    0%{opacity:1}
+    100%{opacity:0.4}
+}
+
+@-webkit-keyframes fadein{
+    0%{opacity:1}
+    100%{opacity:0.4}
 }
 
 .consistent-earnings {

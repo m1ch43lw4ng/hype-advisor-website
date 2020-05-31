@@ -14,7 +14,7 @@ const IndexPage = () => (
     <section id="landing">
       <div class="landing-container">
         <h1 class="title">Inside this generation's most dynamic market</h1>
-        <button id = "arrow">
+        <button id="arrow" onclick="myFunction()">
           <TiArrowDown size={48} />
         </button>
       </div>
@@ -69,5 +69,11 @@ const IndexPage = () => (
     </div>
   </>
 )
+
+var arrow = document.getElementById("arrow");
+arrow.onclick = function(){
+  var elmnt = document.getElementById("site");
+  elmnt.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+};
 
 export default IndexPage
