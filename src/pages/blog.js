@@ -12,62 +12,26 @@ const IndexPage = () => (
     <h1>Blog</h1>
 
     <div class="Blog-Paragraph">
-      <p>
-        Streetwear has not received the amount of attention it deserves.
-When people think of investing, they think of stocks, real estate, and bonds. However, we firmly believe that streetwear is just as, if not more, viable of an investment option.
-For many, investing is buried within complex graphs and incomprehensible audited financials. We want to remove this barrier of entry and introduce a simpler form of investing, one that includes factors we follow instinctively, whether it be hip hop or fashion.
-From then on, we formed <i>The Hype Advisor</i>, a team of streetwear experts who have been passionate about the world of hype for as long as we can remember. Our 20+ years of combined success reselling - buying certain items when they reach their lowest points, waiting for a calculated period of time, and selling them high - allows us to fund our passion. <b>Now we want to expose this underground opportunity to others</b>.
-      </p>
-      <p>
-      <b>Welcome to the future of investing.</b>
-      </p>
-    </div>
-
-    <div class="Blog-Paragraph">
-      <h2>Words simply aren’t enough. Our team created a hedge fund operating in this market, and here’s how we performed during our 6 months.</h2>
-    </div>
-
-    <div class="Blog-Paragraph">
-      <img src={withPrefix("roi-comp.png")} class="About-roi-comp"></img>
-      <p>Our results:
-        <ul>
-          <li>The Hype Fund: 10% ROI over 6 months</li>
-          <li>The DOW: -10% ROI buying and selling at the same time</li>
-        </ul>
-      The next few tabs detail how we were able to do so well, but first:
-      </p>
-    </div>
-
-    <div class="Blog-Paragraph">
-      <h2>Our Values and Mission</h2>
-      <p>
-        As <i>The Hype Advisor</i>, we aim to open up the doors of investment to anyone, regardless of your past experience. Finally, an <b>unsaturated investing service that anyone can participate in</b>.
-      </p>
-      <div class="About-values-wrapper">
-        <div class="About-values-item">
-          <div class="About-values-icon-wrapper">
-            <img src={withPrefix("transparency.svg")} class="About-values-icon"></img>
-          </div>
-          <p><b>Transparency</b></p>
-          <p>We are 100% transparent with our operational activities. The data we provide allows our clients to enrich themselves in the culture and intricacies of the resell world.</p>
-        </div>
-
-        <div class="About-values-item">
-          <div class="About-values-icon-wrapper">
-            <img src={withPrefix("passkey.svg")} class="About-values-icon"></img>
-          </div>
-          <p><b>Accessibility</b></p>
-          <p>Our data allows clients to make the most informed decisions possible when investing in sneakers. All the information you need, right at your fingertips.</p>
-        </div>
-
-        <div class="About-values-item">
-          <div class="About-values-icon-wrapper">
-            <img src={withPrefix("rise.svg")} class="About-values-icon"></img>
-          </div>
-          <p><b>Growth with Intention</b></p>
-          <p>We always put our clientele first, communicating with them every step of the way. Using both qualitative and quantitative tools, we're meticulous with the data mining process.</p>
-        </div>
+      <div class="Blog-Title">
+        <h2 class="Blog-Title">Sneaker Anaysis: Jordan 1 "Court Purple 2.0"</h2>
       </div>
+        <p>Max Shiau, Nathan Ju, Kaushal Anbarasan<h4>June 1, 2020</h4></p>
+      <hr></hr>
+    </div>
+
+    <div class="Blog-Paragraph">
+      <h2>Introduction</h2>
+      <p>Introduction In 2020, the sneaker community witnessed the second release of the Air Jordan 1 Retro High OG “Court Purple 2.0.” The sequel to the original court purples released in 2018, the 2020 release featured the same color palette with black leather replacing the original purple leather paneling on the shoe as well as an increased price tag from $160 to $170.</p>
+    </div>
+
+    <div class="Blog-Paragraph">
+      <h2>Qualitative Data</h2>
+      <p>From a consumer standpoint, this sneaker as well as its 2018 release are appealing due to it’s unnatural and bold color. Prior to this, the sneaker community was yet to see a primarily purple sneaker, thus inflating demand significantly upon release. Despite its age, the sneaker community was equally ecstatic when the re-release of the court purples were announced; but unlike its predecessor, there were other large looming factors that drove the demand for the Court Purple 2.0 even higher. As the world outside closed down, we experienced a new slew of internet trends. Amongst those included Tiktok dances involving throwing the shoe out of view while simultaneously swapping to another user, simulating the shoe being thrown to another person. With many tik tok influencers and casual users alike hopping onto this trend to flaunt their newest shoes, the sneaker market would be hit with a sudden surge of females purchasing grade school sized sneakers. Prior to this, a men’s size sneaker would be expected to be valued higher than a grade school size- as there are more adults purchasing shoes than grade school kids. However, the rise of tik tok drove the prices of grade school sneakers beyond adult sizes, displayed in the graphs below:
+      </p>
+    </div>
+
+    <div class="Blog-Paragraph">
+      <p>Thus, when the release of the court purple 2.0 came along, the demand for grade school sizes on release day was monstrous. Today, the Air Jordan 1 “Court Purple 2.0” in grade school sizes average a price tag of $250. Netflix also conveniently aired Michael Jordan’s “Last Dance” documentary to celebrate the career of legendary basketball player Michael Jordan. The documentary received critical-acclaim- turning the heads of casual sports fans to the basketball superstars’ line of shoes. As a result, many of Jordan’s most iconic silhouettes and colorways have seen an astronomical spike. Displayed below is the price trend of the Air Jordan 1 Chicago (2015), which has since doubled in price. Other third party markets such as StockX have capitalized on this by grouping every sneaker worn in the last dance into one page, allowing new consumers drawn in by “The Last Dance” to shop with ease.</p>
     </div>
   </Layout>
 )
