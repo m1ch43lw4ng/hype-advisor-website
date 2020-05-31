@@ -32,6 +32,9 @@ Josh Luber - “Sneakers are this thing where first of all, it's a pure supply a
     <div class="Industry-Paragraph">
       <h2>Here are the opportunities <i>The Hype Advisor</i> provides for you:</h2>
       <p>
+        <b>Access.</b>
+      </p>
+      <p>
         <b>Diversification.</b> For the longest time, investors have been limited to investing in stocks and bonds. Now, diversification outside these traditional markets and into the streetwear market is now possible. 
       </p>
       <p>
