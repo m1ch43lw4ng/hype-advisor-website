@@ -3,6 +3,7 @@ import React from "react"
 import {TiArrowDown} from 'react-icons/ti';
 
 import Header from "../components/header"
+import Footer from "../components/footer"
 import SEO from "../components/seo"
 import "../css/index.scss"
 
@@ -73,15 +74,10 @@ const IndexPage = () => {
             </div>
           </div>
         </main>
+        <Footer/>
       </div>
     </>
   )
 }
-
-// var arrow = document.getElementById("arrow");
-// arrow.onclick = function(){
-//   var elmnt = document.getElementById("site");
-//   elmnt.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-// };
 
 export default IndexPage
