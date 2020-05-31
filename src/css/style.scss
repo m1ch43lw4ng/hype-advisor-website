@@ -32,7 +32,7 @@ main {
 }
 /* end: from Layout.js */
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
@@ -77,6 +77,17 @@ h4 {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: $foreground-color;
+}
+
+// Font that looks like h1 but is slightly smaller
+h5 {
+  font-family: open-sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 8rem;
+  color: $background-color;
+  margin-top: -3rem;
 }
 
 // Body font
