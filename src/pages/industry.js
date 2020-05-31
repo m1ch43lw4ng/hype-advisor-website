@@ -43,7 +43,7 @@ Josh Luber - “Sneakers are this thing where first of all, it's a pure supply a
     </div>
 
     <div class="Industry-Paragraph">
-      <h2>Here’s how we take advantage of this market</h2>
+      <h2>Here’s how we take advantage of this market:</h2>
       <p>
         <i>The Hype Advisor</i> employs a fundamental research-intensive approach to streetwear investment with the ambition to analyze and <b>make projections for any sneaker</b> on the market.
         <br/><br/>
