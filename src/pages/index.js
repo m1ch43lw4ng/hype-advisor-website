@@ -5,6 +5,7 @@ import {TiArrowDown} from 'react-icons/ti';
 import Header from "../components/header"
 import Footer from "../components/footer"
 import SEO from "../components/seo"
+import Chart from "../components/chart"
 import "../css/index.scss"
 
 const IndexPage = () => {
@@ -30,7 +31,8 @@ const IndexPage = () => {
 
       <div id="site">
         <main>
-          <div>
+          <Chart id="hype-fund-chart" />
+          <div class="chart-caption">
             <p>
               Our past project, The Hype Fund, revealed with full transparency the underlying potential and capability of sneakers as an investment market. To extend this opportunity to others, we recognize the need to make quantitative metrics more organized, universal, and practical. Utilizing our experience, connections, and data analysis, our resources will not only bolster existing investments in sneakers, but also enable you to understand the ins and outs of the market itself.
               <br/><br/>
