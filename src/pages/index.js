@@ -14,7 +14,7 @@ const IndexPage = () => (
     <section id="landing">
       <div class="landing-container">
         <h1 class="title">Inside this generation's most dynamic market</h1>
-        <button id="arrow" onclick="myFunction()">
+        <button id="arrow">
           <TiArrowDown size={48} />
         </button>
       </div>
