@@ -1,3 +1,36 @@
-.Investments-Paragraph {
+#Investments-The_Hype_Index {
   margin-top: 4rem;
+}
+
+.Investments-Body {
+  margin: 0;
+}
+
+#Investments-Projects_List {
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+
+    .Investments-Projects_List-Image {
+      width: 55px;
+      background-color: #4E5064;
+      border-radius: 60px;
+      padding: 15px;
+      margin-right: 2%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#Investments-Calculations {
+  img {
+    width: 100%;
+  }
 }

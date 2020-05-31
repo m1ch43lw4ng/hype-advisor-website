@@ -8,66 +8,64 @@ import "../css/investments.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Our Investments" />
-    <h1>Our Investments</h1>
+    <SEO title="Investments" />
+    <h1>Investments</h1>
 
-    <div class="Investments-Paragraph">
+    <div id="Investments-The_Hype_Index">
+      <h2> The Hype Index </h2>
       <p>
-        Streetwear has not received the amount of attention it deserves.
-When people think of investing, they think of stocks, real estate, and bonds. However, we firmly believe that streetwear is just as, if not more, viable of an investment option.
-For many, investing is buried within complex graphs and incomprehensible audited financials. We want to remove this barrier of entry and introduce a simpler form of investing, one that includes factors we follow instinctively, whether it be hip hop or fashion.
-From then on, we formed <i>The Hype Advisor</i>, a team of streetwear experts who have been passionate about the world of hype for as long as we can remember. Our 20+ years of combined success reselling - buying certain items when they reach their lowest points, waiting for a calculated period of time, and selling them high - allows us to fund our passion. <b>Now we want to expose this underground opportunity to others</b>.
-      </p>
-      <p>
-      <b>Welcome to the future of investing.</b>
+        Introducing <b>The Hype Index</b>, which consists of several research projects, each aiming to leverage the abundance of data to reveal the relationships between streetwear items and their resale prices.
       </p>
     </div>
 
-    <div class="Investments-Paragraph">
-      <h2>Words simply aren’t enough. Our team created a hedge fund operating in this market, and here’s how we performed during our 6 months.</h2>
+    <div id="Investments-The_Hype_Index">
+      <h2> Small Capstone Projects </h2>
+      <ul id="Investments-Projects_List">
+        <li>
+          <div class="Investments-Projects_List-Image">
+            <img src={withPrefix("Investments-bar-chart.png")}></img>
+          </div>
+          <div class="Investments-Projects_List-Text">
+            <h3> Project 1: </h3>
+            <p class="Investments-Body">Exploring the relationship between item quantity and resale value.</p>
+          </div>
+        </li>
+        <li>
+          <div class="Investments-Projects_List-Image">
+            <img src={withPrefix("Investments-User.png")}></img>
+          </div>
+          <div class="Investments-Projects_List-Text">
+            <h3> Project 2: </h3>
+            <p class="Investments-Body"> Exploring the relationship between social media attention and resale value. </p>
+          </div>
+        </li>
+        <li>
+          <div class="Investments-Projects_List-Image">
+            <img src={withPrefix("Investments-T-Shirt.png")}></img>
+          </div>
+          <div class="Investments-Projects_List-Text">
+            <h3> Project 3: </h3>
+            <p class="Investments-Body"> Exploring the relationship between item size and resale value</p>
+          </div>
+        </li>
+      </ul>
     </div>
 
-    <div class="Investments-Paragraph">
-      <img src={withPrefix("roi-comp.png")} class="About-roi-comp"></img>
-      <p>Our results:
-        <ul>
-          <li>The Hype Fund: 10% ROI over 6 months</li>
-          <li>The DOW: -10% ROI buying and selling at the same time</li>
-        </ul>
-      The next few tabs detail how we were able to do so well, but first:
-      </p>
-    </div>
-
-    <div class="Investments-Paragraph">
-      <h2>Our Values and Mission</h2>
+    <div id="Investments-Calculations">
       <p>
-        As <i>The Hype Advisor</i>, we aim to open up the doors of investment to anyone, regardless of your past experience. Finally, an <b>unsaturated investing service that anyone can participate in</b>.
+        Through extensive data-mining, machine learning, and artificial intelligence, we are able to calculate:
       </p>
-      <div class="About-values-wrapper">
-        <div class="About-values-item">
-          <div class="About-values-icon-wrapper">
-            <img src={withPrefix("transparency.svg")} class="About-values-icon"></img>
-          </div>
-          <p><b>Transparency</b></p>
-          <p>We are 100% transparent with our operational activities. The data we provide allows our clients to enrich themselves in the culture and intricacies of the resell world.</p>
-        </div>
+      <img src={withPrefix("Investments-Comparison.png")}></img>
+    </div>
 
-        <div class="About-values-item">
-          <div class="About-values-icon-wrapper">
-            <img src={withPrefix("passkey.svg")} class="About-values-icon"></img>
-          </div>
-          <p><b>Accessibility</b></p>
-          <p>Our data allows clients to make the most informed decisions possible when investing in sneakers. All the information you need, right at your fingertips.</p>
-        </div>
+    <div id="Investments-Calculations">
+      <h2> Rigorous Research </h2>
+      <p>
 
-        <div class="About-values-item">
-          <div class="About-values-icon-wrapper">
-            <img src={withPrefix("rise.svg")} class="About-values-icon"></img>
-          </div>
-          <p><b>Growth with Intention</b></p>
-          <p>We always put our clientele first, communicating with them every step of the way. Using both qualitative and quantitative tools, we're meticulous with the data mining process.</p>
-        </div>
-      </div>
+        Each streetwear item is rigorously researched by our in-house team of analysts. We conduct both absolute and relative valuation to gain a <b>holistic understanding of every item</b> - in addition to looking at the size, collaborator, stock numbers, and other factors of each item, we also compare it to past similar releases to determine its potential profitability.<br/><br/>
+
+        We also analyze the streetwear market as a whole, taking into consideration that streetwear items are luxury goods that have a strong international demand. As a result, this market is here to stay.
+      </p>
     </div>
   </Layout>
 )
