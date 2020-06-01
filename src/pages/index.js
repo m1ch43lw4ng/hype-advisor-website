@@ -1,9 +1,12 @@
 import React from "react"
+import EventListener, {withOptions} from 'react-event-listener';
 
 import {TiArrowDown} from 'react-icons/ti';
 
 import Header from "../components/header"
+import Footer from "../components/footer"
 import SEO from "../components/seo"
+import Chart from "../components/chart"
 import "../css/index.scss"
 
 const IndexPage = () => {
@@ -13,10 +16,28 @@ const IndexPage = () => {
     elmnt.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   };
 
+  var handleResize = () => {
+    var navElement = document.getElementById("title-header");
+    var site = document.getElementById("site");
+    0 >= site.getBoundingClientRect().top ? navElement.style.backgroundColor = "#272832" : navElement.style.backgroundColor = "transparent";
+  }
+
+  var handleScroll = () => {
+    var navElement = document.getElementById("title-header");
+    var site = document.getElementById("site");
+    0 >= site.getBoundingClientRect().top ? navElement.style.backgroundColor = "#272832" : navElement.style.backgroundColor = "transparent";
+  }
+
   return (
     <>
       <SEO title="Home" />
-      <Header centeredHeader={false}/>
+      <div id="title-header"><Header centeredHeader={false} /></div>
+
+      <EventListener
+        target="window"
+        onResize={handleResize}
+        onScroll={withOptions(handleScroll, {passive: true, capture: false})}
+      />
 
       <section id="landing">
         <div class="landing-container">
@@ -29,7 +50,8 @@ const IndexPage = () => {
 
       <div id="site">
         <main>
-          <div>
+          <Chart/>
+          <div class="chart-caption">
             <p>
               Our past project, The Hype Fund, revealed with full transparency the underlying potential and capability of sneakers as an investment market. To extend this opportunity to others, we recognize the need to make quantitative metrics more organized, universal, and practical. Utilizing our experience, connections, and data analysis, our resources will not only bolster existing investments in sneakers, but also enable you to understand the ins and outs of the market itself.
               <br/><br/>
@@ -73,15 +95,10 @@ const IndexPage = () => {
             </div>
           </div>
         </main>
+        <Footer/>
       </div>
     </>
   )
 }
-
-// var arrow = document.getElementById("arrow");
-// arrow.onclick = function(){
-//   var elmnt = document.getElementById("site");
-//   elmnt.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-// };
 
 export default IndexPage

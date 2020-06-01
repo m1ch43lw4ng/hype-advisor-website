@@ -60,6 +60,15 @@
     100%{opacity:0.4}
 }
 
+#chart {
+	display: flex;
+	justify-content: center;
+}
+
+.chart-caption {
+	margin-top: 8rem;
+}
+
 .consistent-earnings {
 	margin-top: 8rem;
 }
@@ -74,20 +83,12 @@
 }
 
 .figure {
-	// font-family: "open-sans";
-	// font-style: normal;
-	// font-weight: bold;
-	// font-size: 60px;
 	text-align: center;
 	color: #FA7268;
 	text-shadow: none;
 }
 
 .caption {
-	// font-family: soleil;
-	// font-style: normal;
-	// font-weight: 200;
-	// font-size: 24px;
 	width: 240px;
 	text-align: center;
 }
