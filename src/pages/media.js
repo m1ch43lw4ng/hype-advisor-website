@@ -4,12 +4,12 @@ import { withPrefix } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import "../css/blog.scss"
+import "../css/media.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Blog" />
-    <h1>Blog</h1>
+    <SEO title="Media" />
+    <h1>Media</h1>
 
     <div class="Blog-Paragraph">
       <div class="Blog-Title">

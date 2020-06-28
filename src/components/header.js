@@ -28,8 +28,8 @@ const Header = ({ centeredHeader=false }) => {
       <ul class="Header-nav">
         <li class="Header-nav-item"><h4><a href="/about">About</a></h4></li>
         <li class="Header-nav-item"><h4><a href="/industry">Industry</a></h4></li>
-        <li class="Header-nav-item"><h4><a href="/investments">Investments</a></h4></li>
-        <li class="Header-nav-item"><h4><a href="/blog">Blog</a></h4></li>
+        <li class="Header-nav-item"><h4><a href="/services">Services</a></h4></li>
+        <li class="Header-nav-item"><h4><a href="/media">Media</a></h4></li>
         <li class="Header-nav-item"><h4><a href="/interest_form">Contact</a></h4></li>
       </ul>
     </header>
