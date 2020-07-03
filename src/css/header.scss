@@ -12,7 +12,7 @@ $top-space: 5rem;
   padding-top: $top-space/3;
   padding-bottom: $top-space/3;
   width: calc(100vw - #{$top-space});
-  z-index: 1;
+  z-index: 5;
 }
 
 .Header-logo {

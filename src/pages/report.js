@@ -26,9 +26,19 @@ const IndexPage = () => {
       <div class="box"></div>
       <Layout>
         <SEO title="Sneaker Report: Jordan 1 Court Purple White" />
+
         <div class="Report-Title">
-        <h1>Sneaker Report: Jordan 1 Court Purple White</h1>
+          <h1>Sneaker Report: Jordan 1 Court Purple White</h1>
         </div>
+
+        <div class="Report-Title-Photo-Container Report-Photo-Container">
+          <img src={require("../images/court-purple-white.png")} class="Report-Photo"></img>
+        </div>
+        
+        <div class="Report-Subtitle">
+          <p>June 11, 2020<br/>By Max Shiau, Nathan Ju, Kaushal Anba</p>
+        </div>
+
         <div class="Report-Paragraph">
           <h2>Introduction</h2>
           <p>
@@ -47,15 +57,25 @@ const IndexPage = () => {
           <p>
           Prior to this, men sizes would be expected to be valued higher than grade school sizes, simply because more adults were purchasing Jordan 1’s compared to kids. However, the growing popularity of TikTok drove the prices of grade school sneakers beyond adult sizes, even though the retail price of adult sizes is much higher ($170 vs $130):
           </p>
+          <div class="Court-Purple-Charts">
+            <img src={require("../images/court-purple-white-adult.png")} class="Chart-Photo"></img>
+            <img src={require("../images/court-purple-white-kids.png")} class="Chart-Photo"></img>
+          </div>
           <p>
           Thus, when the release of the Court Purple 2.0 came along, the demand for grade school sizes on release day was monstrous. Today, it fetches on average a price tag of $250 across all sizes.
           </p>
           <p>
           Netflix also conveniently aired Michael Jordan’s The Last Dance documentary on April 19 to celebrate the career of legendary basketball player Michael Jordan. The documentary received critical acclaim, turning the heads of casual sports fans to the basketball superstar’s sneaker line. As a result, many of Jordan’s most iconic silhouettes, primarily the Jordan 1, and colorways have seen an astronomical spike. Displayed below is the price trend of the famous Air Jordan 1 Chicago (2015), which has doubled in price since the documentary’s release date.
           </p>
+          <div class="Air-Jordan-Chicago-Container Report-Photo-Container">
+            <img src={require("../images/air-jordan-1-chicago.png")} class="Report-Photo"></img>
+          </div>
           <p>
           Third-party markets such as StockX have capitalized on this by grouping every sneaker worn in The Last Dance onto one page, allowing new consumers drawn in by the documentary to shop with ease.
           </p>
+          <div class="The-Last-Dance-Container Report-Photo-Container">
+            <img src={require("../images/the-last-dance.png")} class="Report-Photo"></img>
+          </div>
         </div>
 
         <div class="Report-Paragraph">
@@ -64,6 +84,9 @@ const IndexPage = () => {
           <h3>Demand</h3>
           Let’s first take a look at the demand table for the 2020 release of the Air Jordan 1 Court Purple. Right off the bat, we can see that there is a slightly greater demand for smaller adult sizes. More specifically, the current demand numbers for 7.5, 8, and 8.5 are 1.92, 1.19, and 1.13 respectively, with 7.5 receiving significantly less stock upon release. What do these numbers tell us? 
           </p>
+          <div class="Court-Purple-Demand-Container Report-Photo-Container">
+            <img src={require("../images/court-purple-demand.png")} class="Report-Photo"></img>
+          </div>
           <p>
           First off, we can deduce that sizes 7.5, 8, and 8.5 have a higher demand due to lower stock compared to larger, more generally released sizing. However, we can take it one step further: even though only 893 pairs of size 7.5 Court Purples were released on footsites, they sell in a comparatively higher volume on StockX. This tells us that they have a significant amount of buy pressure compared to any other size. In short, <b>size 7.5 would be the best size to hold</b> for this Jordan 1 in men sizes, since its demand is likely to stand the test of time.
           </p>
@@ -77,6 +100,9 @@ const IndexPage = () => {
           <p>
           The first step we took was to compile the total number of bids and ask for each release in their respective sizes of highest demand. The number of bids represents the pure number of buyers who are looking to purchase the sneaker, while the number of asks represents the pure number of sellers who are looking to profit off the sneaker. By looking at the disparity between the two, we can predict how much more the sneaker can grow in value.
           </p>
+          <div class="Court-Purple-Volume-Container Report-Photo-Container">
+            <img src={require("../images/court-purple-volume.png")} class="Report-Photo"></img>
+          </div>
         </div>
 
         <div class="Report-Paragraph">
@@ -84,6 +110,9 @@ const IndexPage = () => {
           <p>
           Before diving into the data, we first removed all of the outliers by determining a range of prices that we deemed reasonable compared to the current market value. Bids or asks that are outside of that range would not be considered in our histogram, as they are unlikely to be accepted by either the buyer or the seller. As a result, the values we took into consideration are likely to drive the price of the sneaker.
           </p>
+          <div class="Report-Bid-Ask-Chart Report-Photo-Container">
+            <img src={require("../images/court-purple-2020-8.png")} class="Report-Photo"></img>
+          </div>
           <p>
           We begin by determining the number of bids versus the number of asks for this specific size. In this case, there are 24 bids and 17 asks of the Court Purples. Since there are more bids than asks, there is more demand than supply for the said sneaker at its current price of $265, likely driving the value up in the short term.
           </p>
@@ -94,6 +123,9 @@ const IndexPage = () => {
 
         <div class="Report-Paragraph">
           <h2>Jordan 1 Court Purple 2020 (Size 6.5Y)</h2>
+          <div class="Report-Bid-Ask-Chart Report-Photo-Container">
+            <img src={require("../images/court-purple-2020-6.png")} class="Report-Photo"></img>
+          </div>
           <p>
           Now looking at the histogram for GS sizes, we notice the same trend as the adult size: more bids than asks (16 bids vs 10 asks). As a result, we can expect a similar short-term growth in the coming weeks.
           </p>
@@ -103,14 +135,20 @@ const IndexPage = () => {
         </div>
 
         <div class="Report-Paragraph">
-          <h2>Jordan 1 Court Purple 2020 (Size 8)</h2>
+          <h2>Jordan 1 Court Purple 2018 (Size 8)</h2>
+          <div class="Report-Bid-Ask-Chart Report-Photo-Container">
+            <img src={require("../images/court-purple-2018-8.png")} class="Report-Photo"></img>
+          </div>
           <p>
           We can see that the number of bids and asks is about the same on both our histogram and volume table. This indicates that the value of the 2018 release has reached an equilibrium price of $450. Furthermore, given the current market conditions, we can expect the 2020 Court Purples to reach a similar price in the next two years.
           </p>
         </div>
 
         <div class="Report-Paragraph">
-          <h2>Jordan 1 Court Purple 2020 (Size 6.5Y)</h2>
+          <h2>Jordan 1 Court Purple 2018 (Size 6.5Y)</h2>
+          <div class="Report-Bid-Ask-Chart Report-Photo-Container">
+            <img src={require("../images/court-purple-2018-6.png")} class="Report-Photo"></img>
+          </div>
           <p>
           For this size, we doubled the range of prices to include within the histogram because not many pairs are sold on StockX. Despite this effort to get more data, there is only 1 bid and 8 asks for the sneaker. This lack of data explains the fact that GS sizes were nowhere near as prevalent as they are today. As a result, the 2018 pair is not an accurate representation of the current market.
           </p>
