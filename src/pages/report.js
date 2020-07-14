@@ -1,10 +1,13 @@
 import React from "react"
 import { withPrefix, useStaticQuery, graphql } from "gatsby"
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import "../css/report.scss"
+import "../css/media.scss"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -30,8 +33,18 @@ const IndexPage = () => {
           <h1>Sneaker Report: Jordan 1 Court Purple White</h1>
         </div>
 
-        <div class="Report-Title-Photo-Container Report-Photo-Container">
-          <img src={require("../images/court-purple-white.png")} class="Report-Photo"></img>
+        <div class="Report-Photo-Container">
+          <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} >
+              <div class="Report-Title-Photo-Container">
+                <img src={require("../images/court-purple-white.png")} class="Report-Photo"/>
+              </div>
+              <div class="Report-Title-Photo-Container">
+                <img src={require("../images/court-purple-white-2.png")} class="Report-Photo"/>
+              </div>
+              <div class="Report-Title-Photo-Container">
+                <img src={require("../images/court-purple-white-3.png")} class="Report-Photo"/>
+              </div>
+          </Carousel>
         </div>
         
         <div class="Report-Subtitle">
