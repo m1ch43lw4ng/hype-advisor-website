@@ -1,8 +1,80 @@
-.Blog-Title {
-	font-size: 200%;
-  line-height: 100%;
+.Report-Title {
+	margin-top: 5rem;
+	position: relative;
+	z-index: 2;
 }
 
-.Blog-Paragraph {
+.Report-Title h1 {
+	font-size: 7rem;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 1);
+}
+
+.Report-Subtitle {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.box {
+	width: 100%;
+	height: 60rem;
+	background: #484957;
+	margin-top: 9rem;
+	position: absolute;
+	z-index: 1;
+}
+
+.Report-Paragraph {
   margin-top: 4rem;
+  position: relative;
+  z-index: 3;
+}
+
+.Report-Photo-Container {
+	margin-top: 4rem;
+  margin-bottom: 4rem;
+	display: flex;
+	justify-content: center;
+	z-index: 4;
+}
+
+.Report-Photo {
+	width: 100%;
+	height: 100%;
+  object-fit: cover;
+}
+
+.Court-Purple-Charts {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	display: flex;
+	justify-content: center;
+}
+
+.Chart-Photo {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.Air-Jordan-Chicago-Container {
+	height: 40rem;
+}
+
+.The-Last-Dance-Container {
+	margin-bottom: 4rem;
+	height: 20rem;
+}
+
+.Court-Purple-Demand-Container {
+	margin: 0px;
+	height: 80rem;
+}
+
+.Court-Purple-Volume-Container {
+	margin: 0px;
+	height: 30rem;
+}
+
+.Report-Bid-Ask-Chart {
+	height: 60rem;
 }
