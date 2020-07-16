@@ -4,13 +4,39 @@
 }
 
 .Industry-Paragraph {
+  margin-top: 10rem;
+}
+
+.Industry-Title-Paragraph {
   margin-top: 4rem;
+  float: left;
+  width: 60%;
+  height: 36rem;
+}
+
+.Industry-Without-Limits {
+  position: relative;
+  top: -2rem;
+}
+
+.Sneaker-Stock {
+  float: right;
+  width: 40%;
+  height: 40rem;
+}
+
+.Index-Chart {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
 }
 
 .Industry-Chart {
   width: 50%;
   margin: auto;
-  margin-top: -10%;
+  margin-top: -8rem;
   margin-bottom: 6rem;
 }
 
