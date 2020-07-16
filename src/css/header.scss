@@ -53,5 +53,35 @@ $top-space: 5rem;
 		&:hover{
 			background: rgba(255, 255, 255, 0.3);
 		}
-	}
+  }
+}
+
+.Milestone-nav {
+  display: none;
+  position: absolute;
+  right: 4rem;
+  bottom: 1rem;
+}
+
+.Services:hover .Milestone-nav {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  grid-column-start: 3;
+  margin-left: auto;
+  opacity: 0.6;
+}
+
+.Milestone-nav-item {
+	text-align: center;
+  font-size: 1.5em;
+	a {
+	  font-family: soleil;
+	  font-style: normal;
+	  font-weight: 200;
+	  padding: 0 1rem;
+		&:hover{
+			background: rgba(255, 255, 255, 0.3);
+		}
+  }
 }
