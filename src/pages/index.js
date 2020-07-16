@@ -88,24 +88,24 @@ const IndexPage = () => {
 
             <div class="statistic">
               <h5 class="figure">
+                82%
+              </h5>
+              <h2 class="caption">
+                industry respondents believe streetwear has a product lifespan > 1 year
+              </h2>
+            </div>
+            
+            <div class="statistic">
+              <h5 class="figure">
                 3x
               </h5>
               <h2 class="caption">
                 projected growth of the resale market by 2025
               </h2>
             </div>
-
-            <div class="statistic">
-              <h5 class="figure">
-                82%
-              </h5>
-              <h2 class="caption">
-                industry respondents who believe streetwear has a product lifespan of at least 1 year
-              </h2>
-            </div>
           </div>
 
-          <div>
+          <div class="quote-intro">
             <h2>See what globally recognized leaders are saying about the streetwear industry</h2>
           </div>
 
