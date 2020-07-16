@@ -25,7 +25,7 @@ const IndexPage = () => {
     
   return (
     <>
-      <div class="box"></div>
+      <div class="Report-box"></div>
       <Layout>
         <SEO title="Sneaker Report: Jordan 1 Court Purple White" />
 

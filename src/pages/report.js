@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import "../css/media.scss"
+import "../css/report.scss"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
