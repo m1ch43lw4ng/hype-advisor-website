@@ -27,30 +27,13 @@ const IndexPage = () => {
       <h1>About - Why Us?</h1>
 
       <div class="About-Paragraph">
-        <p>Streetwear has not received the amount of attention it deserves.</p>
+        <p><b>Streetwear has not received the amount of attention it deserves.</b></p>
         <p>When people think of investing, they think of stocks, real estate, and bonds. However, we firmly believe that streetwear is just as, if not more, viable of an investment option.</p>
         <p>For many, investing is buried within complex graphs and incomprehensible audited financials. We want to remove this barrier of entry and introduce a simpler form of investing, one that includes factors we follow instinctively, whether it be hip hop or fashion.
         From then on, we formed <i>The Hype Advisor</i>, a team of streetwear experts who have been passionate about the world of hype for as long as we can remember. Our 20+ years of combined success reselling - buying certain items when they reach their lowest points, waiting for a calculated period of time, and selling them high - allows us to fund our passion. <b>Now we want to expose this underground opportunity to others</b>.
         </p>
         <p>
         <b>Welcome to the future of investing.</b>
-        </p>
-      </div>
-
-      <div class="About-Paragraph">
-        <h2>So why trust our investment expertise and industry insights? Words aren't simply aren't enough - our team created a hedge fund operating in this market, and here’s how we performed during our 6 months.</h2>
-      </div>
-
-      <div class="About-Paragraph">
-        <div class="About-roi-comp">
-          <Img fluid={data.roicomp.childImageSharp.fluid} />
-        </div>
-        <p>Our results:
-          <ul>
-            <li>The Hype Fund: 10% ROI over 6 months</li>
-            <li>The DOW: -10% ROI buying and selling at the same time</li>
-          </ul>
-        The next few tabs detail how we were able to do so well, but first:
         </p>
       </div>
 

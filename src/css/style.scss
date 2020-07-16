@@ -86,7 +86,18 @@ h5 {
   font-weight: bold;
   font-size: 6rem;
   line-height: 8rem;
-  color: $background-color;
+  color: $bold-color;
+  margin-top: -3rem;
+}
+
+// Font that looks like h1 but is way smaller
+h6 {
+  font-family: open-sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5em;
+  line-height: 3rem;
+  color: $bold-color;
   margin-top: -3rem;
 }
 

@@ -69,6 +69,10 @@
 	margin-top: 8rem;
 }
 
+.what-we-do {
+	margin-top: 1rem;
+}
+
 .consistent-earnings {
 	margin-top: 8rem;
 }
@@ -82,6 +86,9 @@
 	justify-content: space-around;
 }
 
+.statistic {
+}
+
 .figure {
 	text-align: center;
 	color: #FA7268;
@@ -92,3 +99,48 @@
 	width: 240px;
 	text-align: center;
 }
+
+.quotes {
+	margin-top: 2rem;
+	margin-bottom: 8rem;
+	padding-left: 5%;
+	padding-right: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.quote {
+	background-color: transparent;
+}
+
+.quote-background {
+	position: absolute;
+	margin-left: 0;
+	z-index: 1;
+}
+
+.quote-content {
+	background-color: transparent;
+	margin-top: 10rem;
+	position: relative;
+	width: 400px;
+	text-align: center;
+	z-index: 2;
+}
+
+.author {
+	width: 400px;
+	text-align: center;
+}
+
+	.author .author-name {
+		color: #FA7268;
+		line-height: 1rem;
+		text-shadow: none;
+	}
+
+	.author .author-title {
+		color: #FA7268;
+		line-height: 1rem;
+		text-shadow: none;
+	}
