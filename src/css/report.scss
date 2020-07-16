@@ -33,15 +33,20 @@
 .Report-Photo-Container {
 	margin-top: 4rem;
   margin-bottom: 4rem;
+  position: relative;
 	display: flex;
 	justify-content: center;
 	z-index: 4;
 }
 
+.Report-Title-Photo-Container {
+	height: 20rem;
+  position: relative;
+	z-index: 5;
+}
+
 .Report-Photo {
 	width: 100%;
-	height: 100%;
-  object-fit: cover;
 }
 
 .Court-Purple-Charts {
