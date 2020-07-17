@@ -48,6 +48,30 @@ const IndexPage = () => {
         </div>
         
         <div class="Report-Subtitle">
+          <p>UPDATE: June 11, 2020<br/>By Max Shiau, Nathan Ju, Kaushal Anba</p>
+        </div>
+
+        <div class="Report-Paragraph">
+          <h2>Reflection</h2>
+          <p>
+          Our Court Purple predictions above claimed that sizes 6Y, 6.5Y, 7Y, 7, 8, and 8.5 have a higher demand, more importantly pinpointing 7.5, 7Y, and 5Y to be the most ideal sizes to invest in. We now write this reflection a month after the initial publication to review the market changes, the accuracy of our predictions, and the expectations in the following months regarding this sneaker.
+          </p>
+          <p>
+          Let’s first take a look at the adult sizes. We can see that size 7.5 has shown small signs of growth. With its latest sales settling at around $300, its market value is $20 higher than the value of the sneaker at the time of writing this report. On the other hand, larger sizes such as size 10 and smaller sizes such as size 7 have stayed relevantly stagnant, with their prices only fluctuating by a couple of dollars. 
+          </p>
+          <p>
+          Regarding GS sizes, our prediction for size 7Y was spot on, with prices increasing $20 from $250 to $270. Popular grade school sizes in the range of 6Y-7Y have also all continued to grow upwards of $20+. This points to the higher room for growth that we predicted amongst GS sizes compared to adult sizes. However, smaller sizes such as 5Y have continued to maintain the same price.
+          </p>
+          <p>
+          Overall, we were extremely accurate with our recommendations. Our claim that sizes 6Y-7Y and 7-8.5 having the most growth was 100% correct. However, one flaw we made was our prediction on the growth of size 5Y. In hindsight, 5Y is not as popular of a size in comparison to the larger GS sizes, with 6Y-7Y receiving the most attention in the sneaker resale community. For Milestone 3, we will explore social media attention surrounding any sneaker to continue to refine our investment strategy and better predict future trends.
+          </p>
+        </div>
+
+        <div class="Report-line">
+          <hr></hr>
+        </div>
+
+        <div class="Report-Subtitle">
           <p>June 11, 2020<br/>By Max Shiau, Nathan Ju, Kaushal Anba</p>
         </div>
 
@@ -173,22 +197,6 @@ const IndexPage = () => {
           </p>
           <p>
           Overall, the 2020 Jordan 1 Court Purple is a decent hold that will likely increase in value over time. For both adult and GS sizes, this sneaker has more bids than asks, indicating that we are likely to see short-term growth. The stability of the 2018 release also indicates that the 2020 pair will hold its value for many years to come. However, the room for growth is not substantial. If you decide to buy into pairs, we suggest preferencing GS sizes.
-          </p>
-        </div>
-
-        <div class="Report-Paragraph">
-          <h2>Reflection</h2>
-          <p>
-          Our Court Purple predictions above claimed that sizes 6Y, 6.5Y, 7Y, 7, 8, and 8.5 have a higher demand, more importantly pinpointing 7.5, 7Y, and 5Y to be the most ideal sizes to invest in. We now write this reflection a month after the initial publication to review the market changes, the accuracy of our predictions, and the expectations in the following months regarding this sneaker.
-          </p>
-          <p>
-          Let’s first take a look at the adult sizes. We can see that size 7.5 has shown small signs of growth. With its latest sales settling at around $300, its market value is $20 higher than the value of the sneaker at the time of writing this report. On the other hand, larger sizes such as size 10 and smaller sizes such as size 7 have stayed relevantly stagnant, with their prices only fluctuating by a couple of dollars. 
-          </p>
-          <p>
-          Regarding GS sizes, our prediction for size 7Y was spot on, with prices increasing $20 from $250 to $270. Popular grade school sizes in the range of 6Y-7Y have also all continued to grow upwards of $20+. This points to the higher room for growth that we predicted amongst GS sizes compared to adult sizes. However, smaller sizes such as 5Y have continued to maintain the same price.
-          </p>
-          <p>
-          Overall, we were extremely accurate with our recommendations. Our claim that sizes 6Y-7Y and 7-8.5 having the most growth was 100% correct. However, one flaw we made was our prediction on the growth of size 5Y. In hindsight, 5Y is not as popular of a size in comparison to the larger GS sizes, with 6Y-7Y receiving the most attention in the sneaker resale community. For Milestone 3, we will explore social media attention surrounding any sneaker to continue to refine our investment strategy and better predict future trends.
           </p>
         </div>
       </Layout>

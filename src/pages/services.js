@@ -116,7 +116,10 @@ const IndexPage = () => {
         We assemble … from the three projects above to create <b>sneaker reports</b> for shoes we believe are worth attention.
         </p>
         <p>
-        <a href="/report">Here is a model report for the iconic Jordan 1 Court Purple sneaker</a>
+        Check out our model report for the Jordan 1 Court Purple sneaker on our <a href="/media">media page at this link</a>.
+        </p>
+        <p>
+        If any of the following services interest you, be sure to visit the <a href="/interest_form">Contact Us page</a>.
         </p>
       </div>
 
