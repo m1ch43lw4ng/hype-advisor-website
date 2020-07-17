@@ -65,33 +65,35 @@ const IndexPage = () => {
       <div id="Investments-The_Hype_Index">
         <h2> Small Capstone Projects </h2>
         <ul id="Investments-Projects_List">
-          <li>
+          <li class="Milestone-Item">
+            <a href="/milestone1"></a>
             <div class="Investments-Projects_List-Image">
               <img src={withPrefix("Investments-bar-chart.png")}></img>
             </div>
             <div class="Investments-Projects_List-Text">
-              <h3> Project 1: </h3>
+              <h3> Milestone 1: </h3>
               <p class="Investments-Body">Exploring the relationship between item quantity and resale value.</p>
             </div>
           </li>
-          <li>
+          <li class="Milestone-Item">
+            <a href="/milestone2"></a>
             <div class="Investments-Projects_List-Image">
               <img src={withPrefix("Investments-User.png")}></img>
             </div>
             <div class="Investments-Projects_List-Text">
-              <h3> Project 2: </h3>
+              <h3> Milestone 2: </h3>
               <p class="Investments-Body"> Exploring the relationship between social media attention and resale value. </p>
             </div>
           </li>
-          <li>
+          {/* <li>
             <div class="Investments-Projects_List-Image">
               <img src={withPrefix("Investments-T-Shirt.png")}></img>
             </div>
             <div class="Investments-Projects_List-Text">
-              <h3> Project 3: </h3>
+              <h3> Milestone 3: </h3>
               <p class="Investments-Body"> Exploring the relationship between item size and resale value</p>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
 
