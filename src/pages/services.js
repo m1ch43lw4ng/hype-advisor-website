@@ -110,10 +110,10 @@ const IndexPage = () => {
         Each streetwear item is rigorously researched by our in-house team of analysts. We conduct both absolute and relative valuation to gain a <b>holistic understanding of every item</b> - in addition to looking at the size, collaborator, stock numbers, and other factors of each item, we also compare it to past similar releases to determine its potential profitability.
         </p>
         <p>
-        We also analyze the streetwear market as a whole, taking into consideration that streetwear items are luxury goods that have a strong international demand. As a result, this market is here to stay.
+        We also analyze the streetwear market as a whole, taking into consideration that streetwear items are luxury goods that have a strong international demand. <b>This market is here to stay.</b>
         </p>
         <p>
-        We assemble … from the three projects above to create <b>sneaker reports</b> for shoes we believe are worth attention.
+        Compiling our findings from the milestones above, we create sneaker reports for shoes we believe are worth attention.
         </p>
         <p>
         Check out our model report for the Jordan 1 Court Purple sneaker on our <a href="/media">media page at this link</a>.

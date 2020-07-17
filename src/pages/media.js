@@ -48,7 +48,7 @@ const IndexPage = () => {
         </div>
         
         <div class="Report-Subtitle">
-          <p>UPDATE: June 11, 2020<br/>By Max Shiau, Nathan Ju, Kaushal Anba</p>
+          <p>UPDATE: June 25, 2020<br/>By Max Shiau, Nathan Ju, Kaushal Anba</p>
         </div>
 
         <div class="Report-Paragraph">
@@ -72,7 +72,7 @@ const IndexPage = () => {
         </div>
 
         <div class="Report-Subtitle">
-          <p>June 11, 2020<br/>By Max Shiau, Nathan Ju, Kaushal Anba</p>
+          <p>June 11, 2020</p>
         </div>
 
         <div class="Report-Paragraph">

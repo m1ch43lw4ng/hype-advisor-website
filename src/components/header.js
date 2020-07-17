@@ -31,10 +31,12 @@ const Header = ({ centeredHeader=false }) => {
           <li class="Header-nav-item"><h4><a href="/industry">Industry</a></h4></li>
           <li class="Header-nav-item Services">
             <h4><a href="/services">Services</a></h4>
+            {/*
             <ul class="Milestone-nav">
               <li class="Milestone-nav-item"><h4><a href="/milestone1">Milestone 1</a></h4></li>
               <li class="Milestone-nav-item"><h4><a href="/milestone2">Milestone 2</a></h4></li>
             </ul>
+            */}
           </li>
           <li class="Header-nav-item"><h4><a href="/media">Media</a></h4></li>
           <li class="Header-nav-item"><h4><a href="/interest_form">Contact</a></h4></li>
