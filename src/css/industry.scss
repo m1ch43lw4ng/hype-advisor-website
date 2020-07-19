@@ -4,14 +4,23 @@
 }
 
 .Industry-Paragraph {
-  margin-top: 10rem;
+	position: relative;
+  margin-top: 4rem;
 }
 
 .Industry-Title-Paragraph {
-  margin-top: 4rem;
-  float: left;
-  width: 60%;
-  height: 36rem;
+  width: auto;
+  height: auto;
+  flex: 0 1 calc(100% - 50rem);
+}
+
+.Industry-Title-Image-Container {
+	position: relative;
+	margin-top: 4rem;
+	display: inline-flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .Industry-Without-Limits {
@@ -20,9 +29,10 @@
 }
 
 .Sneaker-Stock {
-  float: right;
-  width: 40%;
+  width: 40rem;
   height: 40rem;
+	flex-grow:0;
+	flex-shrink:0;
 }
 
 .Index-Chart {
