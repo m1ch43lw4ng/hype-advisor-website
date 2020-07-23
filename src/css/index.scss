@@ -168,3 +168,17 @@
     line-height: 1.2em;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 6em;
+    line-height: 1.2em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 5em;
+    line-height: 1.2em;
+  }
+}
