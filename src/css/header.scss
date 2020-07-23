@@ -46,12 +46,14 @@ $top-space: 5rem;
 	text-align: center;
 	font-size: 1.5em;
 	a {
+    text-decoration: none;
 	  font-family: soleil;
 	  font-style: normal;
 	  font-weight: 200;
 	  padding: 0 1rem;
 		&:hover{
 			background: rgba(255, 255, 255, 0.3);
+      color: inherit;
 		}
   }
 }

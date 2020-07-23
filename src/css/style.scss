@@ -141,8 +141,11 @@ i {
 }
 
 a {
-  text-decoration: none;
   color: $bold-color;
+}
+
+a:hover {
+  color: #FA7268;
 }
 
 .button {
