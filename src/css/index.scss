@@ -125,7 +125,6 @@
 
 .quote {
 	background-color: transparent;
-	padding: 0em 2em -0em 2em;
 	margin: 0em 3em 0em 3em;
 	text-align: center;
 	flex: 1 1 25em;
@@ -153,7 +152,7 @@
 .quote-right {
 	position: absolute;
 	right: -10px;
-	bottom: -100px;
+	bottom: -0.5em;
 	font-family: HelveticaNeue;
 	font-style: normal;
 	font-weight: bold;
@@ -174,6 +173,7 @@
 }
 
 .author {
+	margin-top: -0.75em;
 	text-align: center;
 	width: 100%;
 }
@@ -202,11 +202,33 @@
     font-size: 6em;
     line-height: 1.2em;
   }
+
+  .quote {
+		background-color: transparent;
+		margin: 0em 0em 0em 0em;
+		text-align: center;
+		flex: 1 1 25em;
+	}
+
+	.quote-right {
+		bottom: -0.5em;
+	}
 }
 
 @media screen and (max-width: 500px) {
   .title {
-    font-size: 4.5em;
+    font-size: 4em;
     line-height: 1.2em;
   }
+
+  .quote {
+		background-color: transparent;
+		margin: 0em 0em 0em 0em;
+		text-align: center;
+		flex: 1 1 25em;
+	}
+
+	.quote-right {
+		bottom: -0.9em;
+	}
 }
