@@ -193,15 +193,15 @@
 
 @media screen and (max-width: 800px) {
   .title {
-    font-size: 7em;
-    line-height: 1.2em;
+    font-size: 7.5em;
+    line-height: 1em;
   }
 }
 
 @media screen and (max-width: 600px) {
   .title {
-    font-size: 6em;
-    line-height: 1.2em;
+    font-size: 6.5em;
+    line-height: 1em;
   }
 
   .quote {
@@ -218,11 +218,12 @@
 
 @media screen and (max-width: 500px) {
   .title {
+  	left: 8%;
 		font-family: HelveticaNeue;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 50px;
-		line-height: 50px;
+		font-size: 5.2em;
+		line-height: 1em;
 		width: 90%;
 		text-shadow: none;
   }
