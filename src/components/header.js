@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { withPrefix, useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import "../css/header.scss"
@@ -41,6 +41,16 @@ const Header = ({ centeredHeader=false }) => {
           <li class="Header-nav-item"><h4><a href="/media">Media</a></h4></li>
           <li class="Header-nav-item"><h4><a href="/interest_form">Contact</a></h4></li>
         </ul>
+        <div class="Header-nav-mobile">
+          <img src={withPrefix("menu.svg")} class="Header-menu"></img>
+          <ul class="Header-dropdown-mobile">
+            <li class="Header-dropdown-item"><h4><a href="/about">About</a></h4></li>
+            <li class="Header-dropdown-item"><h4><a href="/industry">Industry</a></h4></li>
+            <li class="Header-dropdown-item Services"><h4><a href="/services">Services</a></h4></li>
+            <li class="Header-dropdown-item"><h4><a href="/media">Media</a></h4></li>
+            <li class="Header-dropdown-item"><h4><a href="/interest_form">Contact</a></h4></li>
+          </ul>
+        </div>
       </header>
     </>
   )
