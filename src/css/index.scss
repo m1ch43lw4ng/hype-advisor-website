@@ -18,16 +18,17 @@
 	top: 10%;
 	bottom: 0px;
 	left: 50%;
-	width: 1000px;
+	width: 100%;
 	transform: translateX(-50%);
 }
 
 .title {
 	text-align: left;
+	padding-left: 0em;
 	position: absolute;
 	top: 50%;
-	left: 0;
-	width: 75%;
+	left: 10%;
+	width: 60%;
 	transform: translateY(-50%);
 	color: #FFFFFF;
 }
@@ -66,7 +67,7 @@
 }
 
 .chart-caption {
-	margin-top: 8rem;
+	margin-top: 4rem;
 }
 
 .what-we-do {
@@ -74,23 +75,24 @@
 }
 
 .consistent-earnings {
-	margin-top: 8rem;
-}
-
-.quote-intro {
-	margin-top: 8rem;
+	margin-top: 4rem;
 }
 
 .statistics {
-	margin-top: 8rem;
+	margin-top: 4rem;
 	margin-bottom: 8rem;
 	padding-left: 5%;
 	padding-right: 5%;
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .statistic {
+	padding: 4em 1em 2em 1em;
+	text-align: center;
+	flex: 1 1 20em;
 }
 
 .figure {
@@ -100,41 +102,52 @@
 }
 
 .caption {
-	width: 240px;
 	text-align: center;
+	width: 100%;
+}
+
+.quote-intro {
+	margin-top: -4rem;
 }
 
 .quotes {
-	margin-top: 2rem;
-	margin-bottom: 8rem;
-	padding-left: 5%;
-	padding-right: 5%;
+	margin-top: 0rem;
+	margin-bottom: 6rem;
+	padding-left: 10%;
+	padding-right: 10%;
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
 }
 
 .quote {
 	background-color: transparent;
+	padding: 1em 1em -1em 1em;
+	text-align: center;
+	flex: 1 1 40em;
+	max-width: 40em;
 }
 
 .quote-background {
 	position: absolute;
-	margin-left: 0;
+	margin-left: -6em;
 	z-index: 1;
 }
 
 .quote-content {
-	background-color: transparent;
-	margin-top: 10rem;
-	position: relative;
-	width: 400px;
 	text-align: center;
+	margin-top: 8rem;
+	position: relative;
+	width: 100%;
 	z-index: 2;
 }
 
 .author {
-	width: 400px;
 	text-align: center;
+	width: 100%;
 }
 
 	.author .author-name {
@@ -148,3 +161,10 @@
 		line-height: 1rem;
 		text-shadow: none;
 	}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 7em;
+    line-height: 1.2em;
+  }
+}

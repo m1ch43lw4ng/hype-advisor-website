@@ -10,11 +10,14 @@
 .About-values-wrapper {
 	display: flex;
 	padding: 2em;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .About-values-item {
 	padding: 1em 3em 1em 3em;
 	text-align: center;
+ 	flex: 1 1 20em;
 }
 
 .About-values-icon-wrapper {
