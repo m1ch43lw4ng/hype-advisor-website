@@ -38,13 +38,13 @@ h1, h2, h3, h4, h5 {
 
 // Title font
 h1 {
-  font-family: open-sans;
+  font-family: HelveticaNeue;
   font-style: normal;
   font-weight: bold;
   font-size: 8rem;
-  line-height: 10rem;
+  line-height: 8rem;
   color: $background-color;
-  margin-top: -3rem;
+  margin-top: -2rem;
 
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
