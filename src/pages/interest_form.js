@@ -10,19 +10,6 @@ const IndexPage = () => (
   <Layout renderFooter={false}>
     <SEO title="Interest Form" />
     <div id="Interest_Form_interest-div">
-      <div id="left-bar">
-        <div id="contact-us"><h4>Contact Us</h4></div>
-        <div id="address"><p>
-          10281 Vicksburg Drive <br/>
-          Cupertino, CA 95132 <br/><br/>
-
-          +408 887 4558<br/><br/>
-
-          team@thehypeadvisor.com
-        </p></div>
-        <div id="Interest_Form-follow-us"><h4>Follow Us</h4></div>
-        <Social_Media/>
-      </div>
       <form id="right-bar">
         <h1 id="interest-form">Interest Form</h1>
         <section id="Interest_Form-data">
@@ -37,6 +24,19 @@ const IndexPage = () => (
         </section>
         <div id="Interest_Form-send"><p>Send</p></div>
       </form>
+      <div id="left-bar">
+        <div id="contact-us"><h4>Contact Us</h4></div>
+        <div id="address"><p>
+          10281 Vicksburg Drive <br/>
+          Cupertino, CA 95132 <br/><br/>
+
+          +408 887 4558<br/><br/>
+
+          team@thehypeadvisor.com
+        </p></div>
+        <div id="Interest_Form-follow-us"><h4>Follow Us</h4></div>
+        <Social_Media/>
+      </div>
     </div>
   </Layout>
 )
