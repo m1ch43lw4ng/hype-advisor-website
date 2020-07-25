@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Milestone 1" />
-      <h1>Milestone 1</h1>
+      <h1 class="Milestone-Title">Milestone 1</h1>
 
       <div class="Milestone-Paragraph">
         <h2>Exploring the relationship between item size and demand</h2>

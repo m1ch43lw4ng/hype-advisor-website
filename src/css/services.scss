@@ -1,9 +1,17 @@
+.Services-Title {
+  margin-bottom: 4rem;
+}
+
 #Investments-The_Hype_Fund {
   margin-top: 4rem;
 }
 
 #Investments-The_Hype_Index {
   margin-top: 4rem;
+}
+
+#Investments-Capstone-Projects {
+  margin-top: 8rem;
 }
 
 #Investments-Sneaker_Report {
@@ -22,9 +30,10 @@
 #Investments-Projects_List {
   list-style: none;
   padding: 0;
+  margin-top: 4rem;
 
   li {
-    margin-top: 2%;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
 
@@ -43,9 +52,18 @@
 }
 
 #Investments-Calculations {
-  img {
-    width: 100%;
-  }
+  margin-top: 8rem;
+}
+
+#Investments-Comparison-Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Investments-Comparison-Image {
+  height: 300px;
 }
 
 .Milestone-Item {
@@ -73,4 +91,17 @@
 @-webkit-keyframes fadein{
   0%{opacity:1}
   100%{opacity:0.5}
+}
+
+@media screen and (max-width: 600px) {
+  .Investments-Comparison-Image {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Services-Title {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
 }

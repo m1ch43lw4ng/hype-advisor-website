@@ -23,7 +23,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Services" />
-      <h1>Our Services</h1>
+      <h1 class="Services-Title">Our Services</h1>
       <p>
       If any of the following services interest you, be sure to visit the <a href="/interest_form">contact us</a> page.
       </p>
@@ -62,8 +62,9 @@ const IndexPage = () => {
         </p>
       </div>
 
-      <div id="Investments-The_Hype_Index">
+      <div id="Investments-Capstone-Projects">
         <h2> Small Capstone Projects </h2>
+        <p>Click on any of the below milestones to learn more about our projects:</p>
         <ul id="Investments-Projects_List">
           <li class="Milestone-Item">
             <a href="/milestone1"></a>
@@ -101,7 +102,10 @@ const IndexPage = () => {
         <p>
           Through extensive data-mining, machine learning, and artificial intelligence, we are able to calculate:
         </p>
-        <img src={withPrefix("Investments-Comparison.png")}></img>
+        <div id="Investments-Comparison-Wrapper">
+          <img src={require("../images/investments-comparison-1.png")} class="Investments-Comparison-Image"></img>
+          <img src={require("../images/investments-comparison-2.png")} class="Investments-Comparison-Image"></img>
+        </div>
       </div>
 
       <div id="Investments-Sneaker_Report">

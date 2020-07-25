@@ -55,3 +55,10 @@
   margin-top: 2rem;
   margin-bottom: 6rem;
 }
+
+@media screen and (max-width: 800px) {
+  .Industry-Title {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+}

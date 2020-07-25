@@ -10,7 +10,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Milestone 2" />
-      <h1>Milestone 2</h1>
+      <h1 class="Milestone-Title">Milestone 2</h1>
 
       <div class="Milestone-Paragraph">
         <h2>Exploring the relationship between item bids/asks and resale value</h2>

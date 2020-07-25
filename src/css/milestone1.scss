@@ -1,17 +1,23 @@
 .Milestone-Paragraph {
-    margin-top: 10rem;
+    margin-top: 6rem;
 }
 
 .Pine-Green-Charts {
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 	display: flex;
-    justify-content: center;
-    height: 40rem;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .Chart-Photo {
-    width: 60%;
-	height: 100%;
-	object-fit: contain;
+	height: 400px;
+}
+
+@media screen and (max-width: 800px) {
+	.Milestone-Title {
+		font-size: 6rem;
+		line-height: 6rem;
+	}
 }

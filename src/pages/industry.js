@@ -44,7 +44,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="The Industry" />
-      <h1>The Industry</h1>
+      <h1 class="Industry-Title">The Industry</h1>
 
       <div class="Industry-Container">
         <div class="Industry-Title-Paragraph">
