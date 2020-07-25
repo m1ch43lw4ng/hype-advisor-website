@@ -47,16 +47,14 @@ const IndexPage = () => {
       <h1>The Industry</h1>
 
       <div class="Industry-Container">
-        <div class="Industry-Title-Image-Container">
-          <div class="Sneaker-Stock">
-            <Img fluid={data.sneaker.childImageSharp.fluid}/>
-          </div>
-          <div class="Industry-Title-Paragraph">
-            <h2>Finally, a viable alternative to the stock market.</h2>
-            <p>
-              Limited-edition sneakers have become the hottest commodity of our generation. Selling out within seconds, Jordans and Yeezys alike have unbelievably high demand, leading them to fetch thousands on the secondary resale market. Recently, more and more people have taken notice of its potential as an investment, and we are pioneering this movement.
-            </p>
-          </div>
+        <div class="Industry-Title-Paragraph">
+          <h2>Finally, a viable alternative to the stock market.</h2>
+          <p>
+            Limited-edition sneakers have become the hottest commodity of our generation. Selling out within seconds, Jordans and Yeezys alike have unbelievably high demand, leading them to fetch thousands on the secondary resale market. Recently, more and more people have taken notice of its potential as an investment, and we are pioneering this movement.
+          </p>
+        </div>
+        <div class="Sneaker-Stock">
+          <Img fluid={data.sneaker.childImageSharp.fluid}/>
         </div>
       </div>
 
