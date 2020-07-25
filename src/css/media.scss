@@ -59,13 +59,17 @@
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
-	height: 40rem;
+	flex-wrap: wrap;
 }
 
-.Chart-Photo {
-	padding-left: 8rem;
-	padding-right: 8rem;
+.Report-Chart-Photo {
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	height: 280px;
 }
 
 .Air-Jordan-Chicago-Container {
@@ -89,4 +93,25 @@
 
 .Report-Bid-Ask-Chart {
 	height: 60rem;
+}
+
+@media screen and (max-width: 800px) {
+	.Report-Title h1 {
+		font-size: 5rem;
+		line-height: 5rem;
+		font-weight: 1;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.Report-Chart-Photo {
+		height: 240px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.Report-Photo-Container {
+		height: auto;
+		width: 100%;
+	}
 }

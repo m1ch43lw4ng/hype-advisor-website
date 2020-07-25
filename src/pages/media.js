@@ -94,8 +94,8 @@ const IndexPage = () => {
           Prior to this, men sizes would be expected to be valued higher than grade school sizes, simply because more adults were purchasing Jordan 1’s compared to kids. However, the growing popularity of TikTok drove the prices of grade school sneakers beyond adult sizes, even though the retail price of adult sizes is much higher ($170 vs $130):
           </p>
           <div class="Court-Purple-Charts">
-            <img src={require("../images/court-purple-white-adult.png")} class="Chart-Photo"></img>
-            <img src={require("../images/court-purple-white-kids.png")} class="Chart-Photo"></img>
+            <img src={require("../images/court-purple-white-adult.png")} class="Report-Chart-Photo"></img>
+            <img src={require("../images/court-purple-white-kids.png")} class="Report-Chart-Photo"></img>
           </div>
           <p>
           Thus, when the release of the Court Purple 2.0 came along, the demand for grade school sizes on release day was monstrous. Today, it fetches on average a price tag of $250 across all sizes.
