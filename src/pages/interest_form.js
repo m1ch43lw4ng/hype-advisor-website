@@ -14,6 +14,8 @@ export default class IndexPage extends React.Component {
     investment_amount: 0,
     mailing_list: false,
 
+    message: "", // Take out
+
     success_status: false,
     failed_status: false,
   };
@@ -36,7 +38,8 @@ export default class IndexPage extends React.Component {
       method: "POST",
       headers: { 'Content-Type': 'application/json' },
       // https://stackoverflow.com/questions/17781472/how-to-get-a-subset-of-a-javascript-objects-properties
-      body: JSON.stringify((({ name, email, investment_amount, mailing_list }) => ({ name, email, investment_amount, mailing_list }))(this.state)),
+      // body: JSON.stringify((({ name, email, investment_amount, mailing_list }) => ({ name, email, investment_amount, mailing_list }))(this.state)),
+      body: JSON.stringify((({ name, email, message }) => ({ name, email, message }))(this.state)), // Take out
     };
     fetch("https://dlk12c02xk.execute-api.us-west-1.amazonaws.com/default/EmailCollector", requestOptions).then(response => {
       if (!response.ok) {
@@ -58,7 +61,7 @@ export default class IndexPage extends React.Component {
     )
 
     const Button = () => (
-      <button id="Interest_Form-send" type="submit"><p>Invest</p></button>
+      <button id="Interest_Form-send" type="submit"><p>Send</p></button>
     )
 
     return (
@@ -74,16 +77,20 @@ export default class IndexPage extends React.Component {
               <h4><label for="email"> <span>Email:</span> </label></h4>
               <p><input type="email" placeholder="Your Email" name="email" value={this.state.email} onChange={this.handleInputChange}/></p>
 
-              <h4><label for="investment_amount"> <span>Investment Amount:</span> </label></h4>
-              <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange}/></p>
+              {/* <h4><label for="investment_amount"> <span>Investment Amount:</span> </label></h4> */}
+              {/* <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange}/></p> */}
 
-              {/* <h4><label for="message"> <span>Message:</span> </label></h4> */}
-              {/* <p><textarea type="textarea" id="message" placeholder="Your Message" name="message"/></p> */}
+              {/* Take out */}
+              <h4><label for="message"> <span>Message:</span> </label></h4>
+              <p><textarea type="textarea" id="message" placeholder="Your Message" name="message"/></p>
 
             </section>
             {this.state.failed_status && <Error/>}
             {this.state.success_status && <Success/>}
             {!(this.state.failed_status || this.state.success_status) && <Button/>}
+            <p class="disclaimer">
+            By using The Hype Advisor, you are agreeing to this Terms of Use, which are subject to change at any given time. If any notice of change to the Terms is made to you, the change shall be made effective immediately. Any disagreement with the Terms should result in discontinuing the use of our website. You agree that compliance with these Terms are the legal equivalent of a signed, written contract with The Hype Advisor. You are solely responsible for determining the merits and risks associated with the evaluation of information on our website. We advise that you closely examine the information before making any investment decision. If you are chosen as an investor in our second round of investments, you will be contacted by The Hype Advisor via email, which explains the logistics of our service and contains the agreement contract. Upon signing the contract, you agree to invest the original amount listed on the application. For purposes of your use of our Services, you agree to provide us with accurate information as is required by the application. We agree to not share your information with any third parties, unless we receive permission from you to do so. If any of the information changes at any time during the investment time frame, you agree to promptly notify us of the change(s).
+            </p>
           </form>
           <div id="left-bar">
             <div id="contact-us"><h4>Contact Us</h4></div>
