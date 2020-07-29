@@ -133,9 +133,6 @@ const IndexPage = () => {
         <p>
         Check out our model report for the Jordan 1 Court Purple sneaker on our <a href="/media">media page at this link</a>.
         </p>
-        <p>
-        If any of the following services interest you, be sure to visit the <a href="/interest_form">Contact Us page</a>.
-        </p>
       </div>
 
 
