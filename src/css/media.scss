@@ -99,19 +99,9 @@
 	.Report-Title h1 {
 		font-size: 5rem;
 		line-height: 5rem;
-		font-weight: 1;
 	}
-}
 
-@media screen and (max-width: 800px) {
 	.Report-Chart-Photo {
 		height: 240px;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	.Report-Photo-Container {
-		height: auto;
-		width: 100%;
 	}
 }
