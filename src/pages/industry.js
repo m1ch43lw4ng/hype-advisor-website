@@ -111,7 +111,7 @@ const IndexPage = () => {
           <b>Profitability.</b> The streetwear market is unlike any other. There is a <b>constant influx of new drops</b> every week, providing an abundance of opportunities to invest. The constant demand for valued streetwear items combined with the decreasing supply of brand-new items (as items get worn/used) raises the resell price. As a result, there is no ceiling to which sneaker prices can jump to.
         </p>
         <p>
-          Check out the <a href="services"><u>services</u></a> we are currently working on, and contact us if you would like to join us on our journey to transform the industry.
+          Check out the <a href="/services"><u>services</u></a> we are currently working on, and contact us if you would like to join us on our journey to transform the industry.
         </p>
       </div>
     </Layout>

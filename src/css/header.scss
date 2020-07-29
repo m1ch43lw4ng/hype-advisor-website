@@ -52,7 +52,7 @@ $top-space: 5rem;
     font-weight: 200;
     padding: 0 0.5rem 0.2rem 0.7rem;
     &:hover{
-      background: rgba(255, 255, 255, 0.3);
+      background: rgba(255, 255, 255, 0.5);
       color: inherit;
     }
   }
@@ -84,6 +84,16 @@ $top-space: 5rem;
     padding: 0 1rem;
     &:hover{
       background: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+.Contact {
+  a {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0 0.5rem 0.2rem 0.7rem;
+    &:hover {
+      background: rgba(255, 255, 255, 0.5);
     }
   }
 }
@@ -127,7 +137,7 @@ $top-space: 5rem;
   }
 
   .Header-dropdown-item:hover {
-      background: rgba(255, 255, 255, 0.3);
+      background: rgba(255, 255, 255, 0.5);
     }
 
   .Header-dropdown-item a {
@@ -137,6 +147,14 @@ $top-space: 5rem;
     .Header-dropdown-item a:hover {
       color: inherit;
     }
+
+.Contact-mobile {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 0.3rem 0.3rem 0.3rem 0.5rem; 
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
 
 @media screen and (max-width: 560px) {
   .Header-nav {

@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import HypeFundFlagshipBatch from "../files/HypeFundFlagshipBatch.pdf"
 
 import "../css/services.scss"
 
@@ -25,34 +26,45 @@ const IndexPage = () => {
       <SEO title="Services" />
       <h1 class="Services-Title">Our Services</h1>
       <p>
-      If any of the following services interest you, be sure to visit the <a href="/interest_form">contact us</a> page.
+      If any of the following services interest you, be sure to visit the <a href="/interest_form">Contact Us</a> page.
       </p>
       <div id="Investments-The_Hype_Fund">
         <h2> The Hype Fund </h2>
         <p>
-        Our first service was The Hype Fund, streetwear’s first hedge fund. With a minimum investment amount of just $100, we provided the opportunity for <b>anyone</b> to invest, regardless of financial background. Here’s how it worked:
+          <b>Streetwear’s first hedge fund. </b>
         </p>
         <p>
-        Using our experience, connections, and data analysis, we purchased items that we predicted to be bullish, or increased in resell value over time. After the <b>six-month</b> investing time frame from October 19 to April 19, we sold the items, collected a small management and performance fee, and wired the earnings directly to our investors’ bank account. Our process was <b>as simple and transparent as it gets</b>: we updated our investors monthly with their portfolios, which displayed their investments, current market values, and the reasoning behind each investment. 
-        During the process, we seeked streetwear items with the following characteristics:
+          With a minimum investment amount of just <b>$100</b>, we provide the opportunity for anyone to invest, regardless of financial background. Here’s how it works:
         </p>
         <p>
-        <ol>
-          <li>High Sales Volume</li>
-          <li>Demand Greater than Supply</li>
-          <li>Desirable Colorway from Consumer Perspective</li>
-          <li>Strong Historical Performance in Same Silhouettes with Different Colorways</li>
-          <li>Wide Customer Diversification</li>
-          <li>Mass Amounts of Media Attention</li>
-          <li>Easy to Liquidize</li>
-        </ol>
+          Using our experience, connections, and data analysis, we purchase items that we predict to be bullish, or increase in resale value over time. After the investing time frame, we sell the items, collecting a small management and performance fee, and wire the earnings directly to our investors’ bank account. 
         </p>
         <p>
-        Our ability to create a diversified and balanced portfolio paid off: <b>our investors netted returns of 7.13%</b>, in comparison to <b>-9.64% returns of the Dow Jones Industrial Average</b>.
+          Our process is as <b>simple and transparent as it gets</b>: investors are able to monitor their portfolios at any given time by logging on their portals, which display their investments, current market values, and the reasoning behind each investment. 
+        </p>
+        <p>
+          During the process, we seeked streetwear items with the following characteristics:
+        </p>
+        <p>
+          <ol>
+            <li>High Sales Volume</li>
+            <li>Demand Greater than Supply</li>
+            <li>Desirable Colorway from Consumer Perspective</li>
+            <li>Strong Historical Performance in Same Silhouettes with Different Colorways</li>
+            <li>Wide Customer Diversification</li>
+            <li>Mass Amounts of Media Attention</li>
+            <li>Easy to Liquidize</li>
+          </ol>
+        </p>
+        <p>
+          Our ability to create a diversified and balanced portfolio paid off in our first batch, our investors in that round from October 2019 to April 2020: <b>our investors netted returns of 7.13%</b>, in comparison to <b>-9.64% returns of the Dow Jones Industrial Average</b>.
         </p>
         <div class="Investments-roi-comp">
           <Img fluid={data.roicomp.childImageSharp.fluid} />
         </div>
+        <p>
+          For more details on our first investment round, click <a href={`HypeFundFlagshipBatch.pdf`} download>here</a> to download our report on our flagship Hype Fund batch.
+        </p>
       </div>
 
       <div id="Investments-The_Hype_Index">
