@@ -70,12 +70,12 @@ const IndexPage = () => {
       <div id="Investments-The_Hype_Index">
         <h2> The Hype Index </h2>
         <p>
-          Introducing <b>The Hype Index</b>, which consists of several research projects, each aiming to leverage the abundance of data to reveal the relationships between streetwear items and their resale prices.
+          In addition to The Hype Fund, we want to introduce <b>The Hype Index</b>, which consists of several research projects, each aiming to leverage the abundance of data to reveal the relationships between streetwear items and their resale prices.
         </p>
       </div>
 
       <div id="Investments-Capstone-Projects">
-        <h2> Small Capstone Projects </h2>
+        <h3> Small Capstone Projects </h3>
         <p>Click on any of the below milestones to learn more about our projects:</p>
         <ul id="Investments-Projects_List">
           <li class="Milestone-Item">
@@ -121,7 +121,7 @@ const IndexPage = () => {
       </div>
 
       <div id="Investments-Sneaker_Report">
-        <h2> Sneaker Report </h2>
+        <h2> Sneaker Reports </h2>
         <p>
         Each streetwear item is rigorously researched by our in-house team of analysts. We conduct both absolute and relative valuation to gain a <b>holistic understanding of every item</b> - in addition to looking at the size, collaborator, stock numbers, and other factors of each item, we also compare it to past similar releases to determine its potential profitability.
         </p>
