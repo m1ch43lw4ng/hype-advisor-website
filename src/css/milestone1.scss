@@ -12,12 +12,24 @@
 }
 
 .Chart-Photo {
-	height: 400px;
+	width: 500px;
 }
 
 @media screen and (max-width: 800px) {
 	.Milestone-Title {
 		font-size: 6rem;
 		line-height: 6rem;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.Chart-Photo {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.Chart-Photo {
+		width: 300px;
 	}
 }

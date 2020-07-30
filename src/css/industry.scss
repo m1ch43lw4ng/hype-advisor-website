@@ -7,33 +7,33 @@
   width: auto;
   height: auto;
   flex: calc(100% - 50rem);
-  min-width: 400px;
+  min-width: 300px;
 }
 
 .Industry-Container {
 	margin-top: 4rem;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
 }
 
 .Industry-Without-Limits {
   position: relative;
-  top: -6rem;
 }
 
 .Sneaker-Stock {
   width: 40rem;
-  height: 40rem;
+  height: auto;
 	flex-grow:0;
-  flex-shrink:0;
+  flex-shrink:1;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -12rem;
 }
 
 .Index-Chart {
   width: 60%;
-  min-width: 400px;
+  min-width: 300px;
   text-align: center;
   margin: auto;
   margin-top: 4rem;
@@ -42,7 +42,7 @@
 
 .Industry-Chart {
   width: 50%;
-  min-width: 400px;
+  min-width: 300px;
   margin: auto;
   margin-top: -4rem;
   margin-bottom: 12rem;
@@ -50,7 +50,7 @@
 
 .Industry-PieChart {
   width: 75%;
-  min-width: 400px;
+  min-width: 300px;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 6rem;
@@ -60,5 +60,11 @@
   .Industry-Title {
     font-size: 6rem;
     line-height: 6rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Sneaker-Stock {
+    margin-bottom: 0rem;
   }
 }
