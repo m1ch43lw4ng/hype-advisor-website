@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import HypeFundFlagshipBatch from "../files/HypeFundFlagshipBatch.pdf"
 
 import "../css/services.scss"
 
@@ -62,7 +63,7 @@ const IndexPage = () => {
           <Img fluid={data.roicomp.childImageSharp.fluid} />
         </div>
         <p>
-          For more details on our first investment round, click <a href={`HypeFundFlagshipBatch.pdf`} download>here</a> to download our report on our flagship Hype Fund batch.
+          For more details on our first investment round, click <a href={HypeFundFlagshipBatch} download>here</a> to download our report on our flagship Hype Fund batch.
         </p>
       </div>
 
