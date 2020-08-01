@@ -14,7 +14,7 @@ export default class IndexPage extends React.Component {
     investment_amount: 0,
     mailing_list: false,
 
-    message: "", // Take out
+    // message: "", // Take out
 
     success_status: false,
     failed_status: false,
@@ -38,8 +38,8 @@ export default class IndexPage extends React.Component {
       method: "POST",
       headers: { 'Content-Type': 'application/json' },
       // https://stackoverflow.com/questions/17781472/how-to-get-a-subset-of-a-javascript-objects-properties
-      // body: JSON.stringify((({ name, email, investment_amount, mailing_list }) => ({ name, email, investment_amount, mailing_list }))(this.state)),
-      body: JSON.stringify((({ name, email, message }) => ({ name, email, message }))(this.state)), // Take out
+      body: JSON.stringify((({ name, email, investment_amount, mailing_list }) => ({ name, email, investment_amount, mailing_list }))(this.state)),
+      // body: JSON.stringify((({ name, email, message }) => ({ name, email, message }))(this.state)), // Take out
     };
     fetch("https://dlk12c02xk.execute-api.us-west-1.amazonaws.com/default/EmailCollector", requestOptions).then(response => {
       if (!response.ok) {
@@ -61,7 +61,7 @@ export default class IndexPage extends React.Component {
     )
 
     const Button = () => (
-      <button id="Interest_Form-send" type="submit"><p>Send</p></button>
+      <button id="Interest_Form-send" type="submit"><p>Submit</p></button>
     )
 
     return (
@@ -77,12 +77,12 @@ export default class IndexPage extends React.Component {
               <h4><label for="email"> <span>Email:</span> </label></h4>
               <p><input type="email" placeholder="Your Email" name="email" value={this.state.email} onChange={this.handleInputChange}/></p>
 
-              {/* <h4><label for="investment_amount"> <span>Investment Amount:</span> </label></h4> */}
-              {/* <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange}/></p> */}
+              <h4><label for="investment_amount"> <span>Investment Amount:</span> </label></h4>
+              <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange}/></p>
 
               {/* Take out */}
-              <h4><label for="message"> <span>Message:</span> </label></h4>
-              <p><textarea type="textarea" id="message" placeholder="Your Message" name="message"/></p>
+              {/* <h4><label for="message"> <span>Message:</span> </label></h4> */}
+              {/* <p><textarea type="textarea" id="message" placeholder="Your Message" name="message"/></p> */}
 
             </section>
             {this.state.failed_status && <Error/>}
