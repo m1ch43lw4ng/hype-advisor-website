@@ -11,8 +11,8 @@ export default class IndexPage extends React.Component {
   state = {
     name: "",
     email: "",
-    referrer: "",
-    investment_amount: 0,
+    referrer: "Referrer Gmail Address",
+    investment_amount: 100,
     mailing_list: false,
 
     // message: "", // Take out
@@ -31,8 +31,10 @@ export default class IndexPage extends React.Component {
     })
 
     if (name == "investment_amount") {
-      if (!(value > 100)) {
+      if (!(value >= 100)) {
         target.setCustomValidity("We only accept investments greater than $100.");
+      } else {
+        target.setCustomValidity("");
       }
     }
   }
@@ -66,7 +68,7 @@ export default class IndexPage extends React.Component {
     )
 
     const Button = () => (
-      <button id="Interest_Form-send" type="submit"><p>Submit</p></button>
+      <button id="Interest_Form-send" type="submit"><p>Invest</p></button>
     )
 
     return (
