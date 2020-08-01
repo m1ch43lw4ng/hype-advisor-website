@@ -11,7 +11,7 @@ export default class IndexPage extends React.Component {
   state = {
     name: "",
     email: "",
-    referrer: "Referrer Gmail Address",
+    referrer: "",
     investment_amount: 100,
     mailing_list: false,
 
@@ -88,7 +88,7 @@ export default class IndexPage extends React.Component {
               <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange} required/></p>
 
               <h4><label for="referrer"> <span>Referred By:</span> </label></h4>
-              <p><input type="email" placeholder="Their Gmail" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p>
+              <p><input type="email" placeholder="Referrer Gmail Address" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p>
 
               {/* Take out */}
               {/* <h4><label for="message"> <span>Message:</span> </label></h4> */}
