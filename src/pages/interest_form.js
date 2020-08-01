@@ -82,7 +82,7 @@ export default class IndexPage extends React.Component {
               <p><input type="text" placeholder="Your Name" name="name" value={this.state.name} onChange={this.handleInputChange} required/></p>
 
               <h4><label for="email"> <span>Google Email:</span> </label></h4>
-              <p><input type="email" placeholder="Your Gmail" name="email" value={this.state.email} onChange={this.handleInputChange} required/></p>
+              <p><input type="email" placeholder="Your Gmail Address" name="email" value={this.state.email} onChange={this.handleInputChange} required/></p>
 
               <h4><label for="investment_amount"> <span>Investment Amount:</span> </label></h4>
               <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange} required/></p>
