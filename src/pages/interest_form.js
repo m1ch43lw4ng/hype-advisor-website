@@ -77,14 +77,17 @@ export default class IndexPage extends React.Component {
         <div id="Interest_Form_interest-div">
           <form id="right-bar" onSubmit={this.handleSubmit}>
             <h1 id="interest-form">Interest Form</h1>
+            <p class="required">
+            * required
+            </p>
             <section id="Interest_Form-data">
-              <h4><label for="name"> <span>Name:</span> </label></h4>
+              <h4><label for="name"> <span>*Name:</span> </label></h4>
               <p><input type="text" placeholder="Your Name" name="name" value={this.state.name} onChange={this.handleInputChange} required/></p>
 
-              <h4><label for="email"> <span>Google Email:</span> </label></h4>
+              <h4><label for="email"> <span>*Google Email:</span> </label></h4>
               <p><input type="email" placeholder="Your Gmail Address" name="email" value={this.state.email} onChange={this.handleInputChange} required/></p>
 
-              <h4><label for="investment_amount"> <span>Investment Amount (USD):</span> </label></h4>
+              <h4><label for="investment_amount"> <span>*Investment Amount (USD):</span> </label></h4>
               <p><input type="number" placeholder="100" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange} required/></p>
 
               <h4><label for="referrer"> <span>Referred By:</span> </label></h4>

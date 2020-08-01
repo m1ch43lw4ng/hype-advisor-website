@@ -82,6 +82,11 @@ select:-webkit-autofill:focus {
   margin-right: calc(100% - 12rem);
 }
 
+.required {
+  font-size: 12px;
+  line-height: 15px;
+}
+
 .disclaimer {
   font-size: 8px;
   line-height: 10px;
