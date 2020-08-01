@@ -11,6 +11,7 @@ export default class IndexPage extends React.Component {
   state = {
     name: "",
     email: "",
+    referrer: "",
     investment_amount: 0,
     mailing_list: false,
 
@@ -23,13 +24,17 @@ export default class IndexPage extends React.Component {
   handleInputChange = event => {
     const target = event.target;
     const value = target.value;
-    console.log(value);
     const name = target.name;
 
     this.setState({
       [name]: value,
     })
-    console.log(this.state);
+
+    if (name == "investment_amount") {
+      if (!(value > 100)) {
+        target.setCustomValidity("We only accept investments greater than $100.");
+      }
+    }
   }
 
   handleSubmit = event => {
@@ -72,13 +77,16 @@ export default class IndexPage extends React.Component {
             <h1 id="interest-form">Interest Form</h1>
             <section id="Interest_Form-data">
               <h4><label for="name"> <span>Name:</span> </label></h4>
-              <p><input type="text" placeholder="Your Name" name="name" value={this.state.name} onChange={this.handleInputChange}/></p>
+              <p><input type="text" placeholder="Your Name" name="name" value={this.state.name} onChange={this.handleInputChange} required/></p>
 
-              <h4><label for="email"> <span>Email:</span> </label></h4>
-              <p><input type="email" placeholder="Your Email" name="email" value={this.state.email} onChange={this.handleInputChange}/></p>
+              <h4><label for="email"> <span>Google Email:</span> </label></h4>
+              <p><input type="email" placeholder="Your Gmail" name="email" value={this.state.email} onChange={this.handleInputChange} required/></p>
 
               <h4><label for="investment_amount"> <span>Investment Amount:</span> </label></h4>
-              <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange}/></p>
+              <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange} required/></p>
+
+              <h4><label for="referrer"> <span>Referred By:</span> </label></h4>
+              <p><input type="email" placeholder="Their Gmail" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p>
 
               {/* Take out */}
               {/* <h4><label for="message"> <span>Message:</span> </label></h4> */}
