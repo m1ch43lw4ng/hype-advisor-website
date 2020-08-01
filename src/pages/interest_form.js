@@ -66,7 +66,7 @@ export default class IndexPage extends React.Component {
     )
 
     const Button = () => (
-      <button id="Interest_Form-send" type="submit"><p>Submit</p></button>
+      <button id="Interest_Form-send" type="submit"><p>Invest</p></button>
     )
 
     return (
@@ -86,7 +86,7 @@ export default class IndexPage extends React.Component {
               <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange} required/></p>
 
               <h4><label for="referrer"> <span>Referred By:</span> </label></h4>
-              <p><input type="email" placeholder="Their Gmail" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p>
+              <p><input type="email" placeholder="Enter Referrer Gmail" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p>
 
               {/* Take out */}
               {/* <h4><label for="message"> <span>Message:</span> </label></h4> */}
