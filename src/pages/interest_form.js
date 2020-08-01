@@ -12,7 +12,7 @@ export default class IndexPage extends React.Component {
     name: "",
     email: "",
     referrer: "",
-    investment_amount: 0,
+    investment_amount: null,
     mailing_list: false,
 
     // message: "", // Take out
@@ -31,8 +31,10 @@ export default class IndexPage extends React.Component {
     })
 
     if (name == "investment_amount") {
-      if (!(value > 100)) {
+      if (!(value >= 100)) {
         target.setCustomValidity("We only accept investments greater than $100.");
+      } else {
+        target.setCustomValidity("");
       }
     }
   }
@@ -80,13 +82,13 @@ export default class IndexPage extends React.Component {
               <p><input type="text" placeholder="Your Name" name="name" value={this.state.name} onChange={this.handleInputChange} required/></p>
 
               <h4><label for="email"> <span>Google Email:</span> </label></h4>
-              <p><input type="email" placeholder="Your Gmail" name="email" value={this.state.email} onChange={this.handleInputChange} required/></p>
+              <p><input type="email" placeholder="Your Gmail Address" name="email" value={this.state.email} onChange={this.handleInputChange} required/></p>
 
-              <h4><label for="investment_amount"> <span>Investment Amount:</span> </label></h4>
-              <p><input type="number" placeholder="$" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange} required/></p>
+              <h4><label for="investment_amount"> <span>Investment Amount (USD):</span> </label></h4>
+              <p><input type="number" placeholder="100" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange} required/></p>
 
               <h4><label for="referrer"> <span>Referred By:</span> </label></h4>
-              <p><input type="email" placeholder="Enter Referrer Gmail" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p>
+              <p><input type="email" placeholder="Referrer Gmail Address" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p>
 
               {/* Take out */}
               {/* <h4><label for="message"> <span>Message:</span> </label></h4> */}
