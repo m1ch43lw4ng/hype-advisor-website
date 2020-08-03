@@ -95,7 +95,7 @@ const IndexPage = () => {
             </div>
             <div class="Investments-Projects_List-Text">
               <h3> Milestone 2: </h3>
-              <p class="Investments-Body"> Exploring the relationship between social media attention and resale value. </p>
+              <p class="Investments-Body"> Exploring the relationship between item bid/asks and resale value. </p>
             </div>
           </li>
           {/* <li>
