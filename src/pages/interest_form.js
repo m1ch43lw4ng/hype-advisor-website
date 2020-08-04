@@ -45,7 +45,7 @@ export default class IndexPage extends React.Component {
       method: "POST",
       headers: { 'Content-Type': 'application/json' },
       // https://stackoverflow.com/questions/17781472/how-to-get-a-subset-of-a-javascript-objects-properties
-      body: JSON.stringify((({ name, email, investment_amount, mailing_list }) => ({ name, email, investment_amount, mailing_list }))(this.state)),
+      body: JSON.stringify((({ name, email, investment_amount, mailing_list, referrer }) => ({ name, email, investment_amount, mailing_list, referrer }))(this.state)),
       // body: JSON.stringify((({ name, email, message }) => ({ name, email, message }))(this.state)), // Take out
     };
     fetch("https://dlk12c02xk.execute-api.us-west-1.amazonaws.com/default/EmailCollector", requestOptions).then(response => {
