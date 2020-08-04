@@ -7,6 +7,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import SEO from "../components/seo"
 import Chart from "../components/chart"
+import Popup from "../components/popup"
 import "../css/index.scss"
 
 const IndexPage = () => {
@@ -47,7 +48,7 @@ const IndexPage = () => {
           </button>
         </div>
       </section>
-
+      <Popup/>
       <div id="site">
         <main>
           <div class="what-we-do">

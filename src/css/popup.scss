@@ -1,0 +1,47 @@
+.popupwrapper {
+  top: 9em;
+  position: fixed;
+  left: 10%;
+  width: 80%;
+  z-index: 1;
+}
+
+.popuptext {
+  visibility: visible;
+  display: table;
+  background-color: #FA7268;
+  color: #fff;
+  border-radius: 15px;
+  padding: 0em 2em;
+  margin: 0 auto;
+}
+
+.popuptext a:hover{
+  color: rgba(255, 255, 255, 1);
+}
+
+@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+.close {
+  position: relative;
+  right: 0em;
+  bottom: 0em;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+.close:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 900px) {
+  .close {
+    position: absolute;
+    right: 1em;
+    bottom: 1.2em;
+  }
+}
