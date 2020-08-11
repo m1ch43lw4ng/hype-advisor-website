@@ -11,11 +11,11 @@ export default class IndexPage extends React.Component {
   state = {
     name: "",
     email: "",
-    referrer: "",
-    investment_amount: null,
+    // referrer: "",
+    // investment_amount: null,
     mailing_list: false,
 
-    // message: "", // Take out
+    message: "", // Take out
 
     success_status: false,
     failed_status: false,
@@ -30,13 +30,13 @@ export default class IndexPage extends React.Component {
       [name]: value,
     })
 
-    if (name == "investment_amount") {
-      if (!(value >= 100)) {
-        target.setCustomValidity("We only accept investments greater than $100.");
-      } else {
-        target.setCustomValidity("");
-      }
-    }
+    // if (name == "investment_amount") {
+    //   if (!(value >= 100)) {
+    //     target.setCustomValidity("We only accept investments greater than $100.");
+    //   } else {
+    //     target.setCustomValidity("");
+    //   }
+    // }
   }
 
   handleSubmit = event => {
@@ -45,8 +45,8 @@ export default class IndexPage extends React.Component {
       method: "POST",
       headers: { 'Content-Type': 'application/json' },
       // https://stackoverflow.com/questions/17781472/how-to-get-a-subset-of-a-javascript-objects-properties
-      body: JSON.stringify((({ name, email, investment_amount, mailing_list, referrer }) => ({ name, email, investment_amount, mailing_list, referrer }))(this.state)),
-      // body: JSON.stringify((({ name, email, message }) => ({ name, email, message }))(this.state)), // Take out
+      // body: JSON.stringify((({ name, email, investment_amount, mailing_list, referrer }) => ({ name, email, investment_amount, mailing_list, referrer }))(this.state)),
+      body: JSON.stringify((({ name, email, message }) => ({ name, email, message }))(this.state)), // Take out
     };
     fetch("https://dlk12c02xk.execute-api.us-west-1.amazonaws.com/default/EmailCollector", requestOptions).then(response => {
       if (!response.ok) {
@@ -68,15 +68,15 @@ export default class IndexPage extends React.Component {
     )
 
     const Button = () => (
-      <button id="Interest_Form-send" type="submit"><p>Invest</p></button>
+      <button id="Interest_Form-send" type="submit"><p>Send</p></button>
     )
 
     return (
       <Layout renderFooter={false}>
-        <SEO title="Interest Form" />
+        <SEO title="Contact Us" />
         <div id="Interest_Form_interest-div">
           <form id="right-bar" onSubmit={this.handleSubmit}>
-            <h1 id="interest-form">Interest Form</h1>
+            <h1 id="interest-form">Contact Us</h1>
             <p class="required">
             * required
             </p>
@@ -84,18 +84,18 @@ export default class IndexPage extends React.Component {
               <h4><label for="name"> <span>*Name:</span> </label></h4>
               <p><input type="text" placeholder="Your Name" name="name" value={this.state.name} onChange={this.handleInputChange} required/></p>
 
-              <h4><label for="email"> <span>*Google Email:</span> </label></h4>
-              <p><input type="email" placeholder="Your Gmail Address" name="email" value={this.state.email} onChange={this.handleInputChange} required/></p>
+              <h4><label for="email"> <span>*Email:</span> </label></h4>
+              <p><input type="email" placeholder="Your Email Address" name="email" value={this.state.email} onChange={this.handleInputChange} required/></p>
 
-              <h4><label for="investment_amount"> <span>*Investment Amount (USD):</span> </label></h4>
-              <p><input type="number" placeholder="100" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange} required/></p>
+              {/* <h4><label for="investment_amount"> <span>*Investment Amount (USD):</span> </label></h4> */}
+              {/* <p><input type="number" placeholder="100" name="investment_amount" value={this.state.investment_amount} onChange={this.handleInputChange} required/></p> */}
 
-              <h4><label for="referrer"> <span>Referred By:</span> </label></h4>
-              <p><input type="email" placeholder="Referrer Gmail Address" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p>
+              {/* <h4><label for="referrer"> <span>Referred By:</span> </label></h4> */}
+              {/* <p><input type="email" placeholder="Referrer Gmail Address" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p> */}
 
               {/* Take out */}
-              {/* <h4><label for="message"> <span>Message:</span> </label></h4> */}
-              {/* <p><textarea type="textarea" id="message" placeholder="Your Message" name="message"/></p> */}
+              <h4><label for="message"> <span>Message:</span> </label></h4>
+              <p><textarea type="textarea" id="message" placeholder="Your Message" name="message"/></p>
 
             </section>
             {this.state.failed_status && <Error/>}

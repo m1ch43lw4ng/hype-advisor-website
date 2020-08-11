@@ -39,7 +39,7 @@ const Header = ({ centeredHeader=false }) => {
             */}
           </li>
           <li class="Header-nav-item"><h4><a href="/media">Media</a></h4></li>
-          <li class="Header-nav-item Contact"><h4><a href="/interest_form">Invest</a></h4></li>
+          <li class="Header-nav-item Contact"><h4><a href="/interest_form">Contact Us</a></h4></li>
         </ul>
         <div class="Header-nav-mobile">
           <img src={withPrefix("menu.svg")} class="Header-menu"></img>
@@ -48,7 +48,7 @@ const Header = ({ centeredHeader=false }) => {
             <li class="Header-dropdown-item"><h4><a href="/industry">Industry</a></h4></li>
             <li class="Header-dropdown-item Services"><h4><a href="/services">Services</a></h4></li>
             <li class="Header-dropdown-item"><h4><a href="/media">Media</a></h4></li>
-            <li class="Header-dropdown-item Contact-mobile"><h4><a href="/interest_form">Invest</a></h4></li>
+            <li class="Header-dropdown-item Contact-mobile"><h4><a href="/interest_form">Contact Us</a></h4></li>
           </ul>
         </div>
       </header>
