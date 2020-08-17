@@ -1,10 +1,14 @@
 import React from "react"
 import { withPrefix, useStaticQuery, graphql } from "gatsby"
+import ReactGA from "react-ga"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import "../css/milestone2.scss"
+
+ReactGA.initialize('UA-175519872-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const IndexPage = () => {
   return (

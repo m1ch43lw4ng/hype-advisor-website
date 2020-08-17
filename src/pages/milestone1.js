@@ -1,9 +1,13 @@
 import React from "react"
+import ReactGA from "react-ga"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import "../css/milestone1.scss"
+
+ReactGA.initialize('UA-175519872-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const IndexPage = () => {
   return (

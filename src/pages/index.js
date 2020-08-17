@@ -1,5 +1,6 @@
 import React from "react"
 import EventListener, {withOptions} from 'react-event-listener';
+import ReactGA from "react-ga"
 
 import {TiArrowDown} from 'react-icons/ti';
 
@@ -9,6 +10,9 @@ import SEO from "../components/seo"
 import Chart from "../components/chart"
 import Popup from "../components/popup"
 import "../css/index.scss"
+
+ReactGA.initialize('UA-175519872-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const IndexPage = () => {
 

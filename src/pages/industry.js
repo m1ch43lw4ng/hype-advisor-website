@@ -1,11 +1,15 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import ReactGA from "react-ga"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import "../css/industry.scss"
+
+ReactGA.initialize('UA-175519872-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`

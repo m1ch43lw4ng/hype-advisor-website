@@ -3,11 +3,15 @@ import { withPrefix, useStaticQuery, graphql } from "gatsby"
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import ReactGA from "react-ga"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import "../css/media.scss"
+
+ReactGA.initialize('UA-175519872-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
