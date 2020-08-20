@@ -8,8 +8,10 @@ import SEO from "../components/seo"
 
 import "../css/about.scss"
 
-ReactGA.initialize('UA-175519872-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+if (typeof window !== `undefined`) {
+  ReactGA.initialize('UA-175519872-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -27,7 +29,7 @@ const IndexPage = () => {
     
   return (
     <Layout>
-      <SEO title="About - WHy Us?" />
+      <SEO title="About - Why Us?" />
       <h1>About - Why Us?</h1>
 
       <div class="About-Paragraph">

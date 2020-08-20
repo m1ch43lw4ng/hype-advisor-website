@@ -7,8 +7,10 @@ import Social_Media from "../components/social_media"
 
 import "../css/interest_form.scss"
 
-ReactGA.initialize('UA-175519872-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+if (typeof window !== `undefined`) {
+  ReactGA.initialize('UA-175519872-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 // Why this is not a function: https://stackoverflow.com/questions/60156513/in-gatsby-what-is-the-difference-in-exteding-component-vs-arrow-function
 export default class IndexPage extends React.Component {

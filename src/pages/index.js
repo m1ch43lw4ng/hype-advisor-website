@@ -11,8 +11,10 @@ import Chart from "../components/chart"
 import Popup from "../components/popup"
 import "../css/index.scss"
 
-ReactGA.initialize('UA-175519872-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+if (typeof window !== `undefined`) {
+  ReactGA.initialize('UA-175519872-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 const IndexPage = () => {
 

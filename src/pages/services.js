@@ -9,8 +9,10 @@ import HypeFundFlagshipBatch from "../files/HypeFundFlagshipBatch.pdf"
 
 import "../css/services.scss"
 
-ReactGA.initialize('UA-175519872-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+if (typeof window !== `undefined`) {
+  ReactGA.initialize('UA-175519872-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -47,7 +49,7 @@ const IndexPage = () => {
           Our process is as <b>simple and transparent as it gets</b>: investors are able to monitor their portfolios at any given time by logging on their portals, which display their investments, current market values, and the reasoning behind each investment. 
         </p>
         <p>
-          During the process, we seeked streetwear items with the following characteristics:
+          During the process, we seek streetwear items with the following characteristics:
         </p>
         <p>
           <ol>

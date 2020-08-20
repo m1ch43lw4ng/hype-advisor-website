@@ -7,8 +7,10 @@ import SEO from "../components/seo"
 
 import "../css/milestone2.scss"
 
-ReactGA.initialize('UA-175519872-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+if (typeof window !== `undefined`) {
+  ReactGA.initialize('UA-175519872-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 const IndexPage = () => {
   return (
