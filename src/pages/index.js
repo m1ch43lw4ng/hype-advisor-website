@@ -54,7 +54,7 @@ const IndexPage = () => {
           </button>
         </div>
       </section>
-      <Popup/>
+  {/*    <Popup/>*/}
       <div id="site">
         <main>
           <div class="what-we-do">
