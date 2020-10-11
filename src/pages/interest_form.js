@@ -82,9 +82,12 @@ export default class IndexPage extends React.Component {
         <SEO title="Contact Us" />
         <div id="Interest_Form_interest-div">
           <form id="right-bar" onSubmit={this.handleSubmit}>
-            <h1 id="interest-form">Contact Us</h1>
+            <h1 id="interest-form">Subscribe</h1>
             <p class="required">
             * required
+            <p>
+            Sign up for The Hype Weekly, a one-stop shop for everything profitable in the streetwear market. You’ll also receive a complementary guide containing 7 sneaker investment strategies that we personally use!
+            </p>
             </p>
             <section id="Interest_Form-data">
               <h4><label for="name"> <span>*Name:</span> </label></h4>
@@ -100,16 +103,20 @@ export default class IndexPage extends React.Component {
               {/* <p><input type="email" placeholder="Referrer Gmail Address" name="referrer" value={this.state.referrer} onChange={this.handleInputChange}/></p> */}
 
               {/* Take out */}
+              {/*
               <h4><label for="message"> <span>Message:</span> </label></h4>
               <p><textarea type="textarea" id="message" placeholder="Your Message" name="message"/></p>
+              */}
 
             </section>
             {this.state.failed_status && <Error/>}
             {this.state.success_status && <Success/>}
             {!(this.state.failed_status || this.state.success_status) && <Button/>}
+            {/*
             <p class="disclaimer">
             By using The Hype Advisor, you are agreeing to this Terms of Use, which are subject to change at any given time. If any notice of change to the Terms is made to you, the change shall be made effective immediately. Any disagreement with the Terms should result in discontinuing the use of our website. You agree that compliance with these Terms are the legal equivalent of a signed, written contract with The Hype Advisor. You are solely responsible for determining the merits and risks associated with the evaluation of information on our website. We advise that you closely examine the information before making any investment decision. If you are chosen as an investor in our second round of investments, you will be contacted by The Hype Advisor via email, which explains the logistics of our service and contains the agreement contract. Upon signing the contract, you agree to invest the original amount listed on the application. For purposes of your use of our Services, you agree to provide us with accurate information as is required by the application. We agree to not share your information with any third parties, unless we receive permission from you to do so. If any of the information changes at any time during the investment time frame, you agree to promptly notify us of the change(s).
             </p>
+            */}
           </form>
           <div id="left-bar">
             <div id="contact-us"><h4>Contact Us</h4></div>
