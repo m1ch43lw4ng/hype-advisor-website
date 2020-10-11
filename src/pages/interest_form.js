@@ -70,23 +70,23 @@ export default class IndexPage extends React.Component {
     )
 
     const Success = () => (
-      <div class="Interest_Form-reply"><p> Thanks! We'll be getting back to you shortly. </p></div>
+      <div class="Interest_Form-reply"><p> Thanks! You will receive an email shortly. </p></div>
     )
 
     const Button = () => (
-      <button id="Interest_Form-send" type="submit"><p>Send</p></button>
+      <button id="Interest_Form-send" type="submit"><p>Submit</p></button>
     )
 
     return (
       <Layout renderFooter={false}>
-        <SEO title="Contact Us" />
+        <SEO title="Subscribe" />
         <div id="Interest_Form_interest-div">
           <form id="right-bar" onSubmit={this.handleSubmit}>
             <h1 id="interest-form">Subscribe</h1>
             <p class="required">
             * required
             <p>
-            Sign up for The Hype Weekly, a one-stop shop for everything profitable in the streetwear market. You’ll also receive a complementary guide containing 7 sneaker investment strategies that we personally use!
+            Sign up for <i>The Hype Weekly</i>, a <b>one-stop shop</b> for everything profitable in the streetwear market. You’ll also receive a complementary guide containing <b>7 sneaker investment strategies</b> that we personally use!
             </p>
             </p>
             <section id="Interest_Form-data">
