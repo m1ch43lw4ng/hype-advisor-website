@@ -152,3 +152,10 @@ a:hover {
   text-decoration: underline;
   border-bottom: dotted 1px;
 }
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+}
