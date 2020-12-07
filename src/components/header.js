@@ -27,10 +27,10 @@ const Header = ({ centeredHeader=false }) => {
           </a>
         </div>
         <ul class="Header-nav">
-          <li class="Header-nav-item"><h4><a href="/about">About</a></h4></li>
-          <li class="Header-nav-item"><h4><a href="/industry">Industry</a></h4></li>
+          <li class="Header-nav-item"><a href="/about">About</a></li>
+          <li class="Header-nav-item"><a href="/industry">Industry</a></li>
           <li class="Header-nav-item Services">
-            <h4><a href="/services">Services</a></h4>
+            <a href="/services">Services</a>
             {/*
             <ul class="Milestone-nav">
               <li class="Milestone-nav-item"><h4><a href="/milestone1">Milestone 1</a></h4></li>
@@ -38,17 +38,17 @@ const Header = ({ centeredHeader=false }) => {
             </ul>
             */}
           </li>
-          <li class="Header-nav-item"><h4><a href="/media">Media</a></h4></li>
-          <li class="Header-nav-item Contact"><h4><a href="/interest_form">Subscribe</a></h4></li>
+          <li class="Header-nav-item"><a href="/media">Media</a></li>
+          <li class="Header-nav-item Contact"><a href="/interest_form">Subscribe</a></li>
         </ul>
         <div class="Header-nav-mobile">
           <img src={withPrefix("menu.svg")} class="Header-menu"></img>
           <ul class="Header-dropdown-mobile">
-            <li class="Header-dropdown-item"><h4><a href="/about">About</a></h4></li>
-            <li class="Header-dropdown-item"><h4><a href="/industry">Industry</a></h4></li>
-            <li class="Header-dropdown-item Services"><h4><a href="/services">Services</a></h4></li>
-            <li class="Header-dropdown-item"><h4><a href="/media">Media</a></h4></li>
-            <li class="Header-dropdown-item Contact-mobile"><h4><a href="/interest_form">Subscribe</a></h4></li>
+            <li class="Header-dropdown-item"><a href="/about">About</a></li>
+            <li class="Header-dropdown-item"><a href="/industry">Industry</a></li>
+            <li class="Header-dropdown-item Services"><a href="/services">Services</a></li>
+            <li class="Header-dropdown-item"><a href="/media">Media</a></li>
+            <li class="Header-dropdown-item Contact-mobile"><a href="/interest_form">Subscribe</a></li>
           </ul>
         </div>
       </header>

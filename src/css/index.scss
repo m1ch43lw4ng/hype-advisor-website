@@ -1,3 +1,7 @@
+$background-color: white;
+$foreground-color: #272832;
+$bold-color: #272832;
+
 #landing {
 /*	position: absolute;
 	width: 1440px;
@@ -32,6 +36,31 @@
 	transform: translateY(-50%);
 	color: #FFFFFF;
 	text-shadow: none;
+}
+
+#index-gradient {
+	height: 166px;
+	background: linear-gradient(180deg, #000000 -64.35%, #000000 -2.72%, rgba(39, 40, 50, 0) 100%), #272832;
+}
+
+#index-page {
+	background-color: #272832;
+	h1, h2, h3, h4, h5, h6, p, b, a {
+		color: $background-color;
+	}
+	.figure {
+		color: #FA7268;
+	}
+	.author-name {
+		color: #FA7268;
+	}
+	.author-title {
+		color: rgba(255, 255, 255, 0.8);
+	}
+	.quote-left, .quote-right {
+		color: rgba(255, 255, 255, 0.3);
+	}
+	bottom: 0;
 }
 
 #arrow {
@@ -98,7 +127,6 @@
 
 .figure {
 	text-align: center;
-	color: #FA7268;
 	text-shadow: none;
 }
 
@@ -146,7 +174,6 @@
 	font-weight: bold;
 	font-size: 200px;
 	line-height: 25px;
-	color: rgba(255, 255, 255, 0.3);
 	z-index: 1;
 }
 
@@ -159,7 +186,6 @@
 	font-weight: bold;
 	font-size: 200px;
 	line-height: 25px;
-	color: rgba(255, 255, 255, 0.3);
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	transform: rotate(-180deg);
 	z-index: 2;
@@ -180,13 +206,11 @@
 }
 
 	.author .author-name {
-		color: #FA7268;
 		line-height: 1rem;
 		text-shadow: none;
 	}
 
 	.author .author-title {
-		color: rgba(255, 255, 255, 0.8);
 		line-height: 1rem;
 		text-shadow: none;
 	}

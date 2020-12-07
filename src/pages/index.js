@@ -19,19 +19,19 @@ if (typeof window !== `undefined`) {
 const IndexPage = () => {
 
   var handleClick = () => {
-    var elmnt = document.getElementById("site");
+    var elmnt = document.getElementById("index-page");
     elmnt.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   };
 
   var handleResize = () => {
     var navElement = document.getElementById("title-header");
-    var site = document.getElementById("site");
+    var site = document.getElementById("index-page");
     0 >= site.getBoundingClientRect().top ? navElement.style.backgroundColor = "#272832" : navElement.style.backgroundColor = "transparent";
   }
 
   var handleScroll = () => {
     var navElement = document.getElementById("title-header");
-    var site = document.getElementById("site");
+    var site = document.getElementById("index-page");
     0 >= site.getBoundingClientRect().top ? navElement.style.backgroundColor = "#272832" : navElement.style.backgroundColor = "transparent";
   }
 
@@ -48,28 +48,23 @@ const IndexPage = () => {
 
       <section id="landing">
         <div class="landing-container">
-          <h1 class="title">Inside this generation's most dynamic market</h1>
+          <h1 class="title">Invest in this generation's most dynamic market</h1>
           <button id="arrow" onClick={handleClick}>
             <TiArrowDown size={48} />
           </button>
         </div>
       </section>
-  {/*    <Popup/>*/}
-      <div id="site">
+      {/*    <Popup/>*/}
+      <div id="index-gradient"></div>
+      <div id="index-page">
         <main>
           <div class="what-we-do">
             <h2>What we do</h2>
             <p>
-            The Hype Advisor is a premier financial services firm that operates specifically in the streetwear market, aiming to <b>democratize access to investment</b> in this generation’s most dynamic market.
+            The Hype Advisor operates specifically in the streetwear market, aiming to <b>democratize access</b> to investment in this generation’s most dynamic market.
             </p>
             <p>
-            Our first step towards this goal was the creation of The Hype Fund, which revealed the underlying potential and capability of sneakers as an investment market. To extend this opportunity to others, we recognize the need to make quantitative metrics more <b>organized, universal, and practical.</b>
-            </p>
-            <p>
-            Now, we have become the <b>one-stop-shop for everything streetwear investing</b>.
-            </p>
-            <p>
-            Utilizing our experience, connections, and data analysis, we have created services that streamline the reselling process, bolster your existing investments in sneakers, and deepen your understanding of the market’s ins and outs.
+            Utilizing our experience, connections, and data analysis, we aim to streamline the reselling process, bolster your existing investments in sneakers, and deepen your understanding of the market’s ins and outs.
             </p>
             <p>
             Check out our services <a href="/services">here</a>.

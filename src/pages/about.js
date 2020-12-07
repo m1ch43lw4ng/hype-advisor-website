@@ -30,7 +30,9 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="About - Why Us?" />
-      <h1>About - Why Us?</h1>
+      <h1>About</h1>
+
+      <h2>Why Us</h2>
 
       <div class="About-Paragraph">
         <p><b>Streetwear has not received the amount of attention it deserves.</b></p>

@@ -45,17 +45,19 @@ $top-space: 5rem;
 .Header-nav-item {
   text-align: center;
   font-size: 1.5em;
+  letter-spacing: 0.5px;
   a {
     text-decoration: none;
-    font-family: soleil;
-    font-style: normal;
-    font-weight: 200;
+    font-family: Helvetica;
+    font-style: bold;
+    font-weight: 600;
     padding: 0 0.5rem 0.2rem 0.7rem;
     &:hover{
       background: rgba(255, 255, 255, 0.5);
       color: inherit;
     }
   }
+  color: #272832;
 }
 
 .Milestone-nav {

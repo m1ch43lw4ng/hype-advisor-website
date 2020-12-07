@@ -1,9 +1,9 @@
 @import './normalize';
 @import url("https://use.typekit.net/scz2cjr.css");
 
-$background-color: #272832;
-$foreground-color: rgba(255, 255, 255, 0.8);
-$bold-color: rgba(255, 255, 255, 1);
+$background-color: white;
+$foreground-color: #272832;
+$bold-color: #272832;
 
 html {
   font-size: 62.5%;
@@ -43,7 +43,7 @@ h1 {
   font-weight: bold;
   font-size: 8rem;
   line-height: 8rem;
-  color: $background-color;
+  color: $bold-color;
   margin-top: -2rem;
 
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -55,6 +55,7 @@ h2 {
   font-weight: 600;
   font-size: 2.6rem;
   line-height: 3.5rem;
+  margin-top: 3rem;
   color: $bold-color;
 }
 
@@ -109,6 +110,7 @@ p {
   font-size: 1.8rem;
   line-height: 2.8rem;
   color: $foreground-color;
+  margin-bottom: 3rem;
 }
 
 input, textarea {
