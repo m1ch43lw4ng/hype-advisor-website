@@ -45,7 +45,7 @@ const IndexPage = () => {
 
         <div class="post-description-wrapper">
           <h4>Annette Yang</h4>
-          <h4>25 NOV 2020 • 4 MIN READ</h4>
+          <h4>3 JAN 2021 • 4 MIN READ</h4>
         </div>
 
         <div class="blog-image-wrapper">

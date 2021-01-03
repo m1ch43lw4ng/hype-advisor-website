@@ -36,7 +36,7 @@ const IndexPage = () => {
               <p>Let’s talk about one of this generation’s most prominent markets: streetwear. Seeping into everything relating to Gen Z’ers, this industry has taken the world by storm.</p>
               <div class="post-description-wrapper">
                 <h4>Annette Yang</h4>
-                <h4>25 NOV 2020 • 4 MIN READ</h4>
+                <h4>3 JAN 2021 • 4 MIN READ</h4>
               </div>
             </div>
           </a>
