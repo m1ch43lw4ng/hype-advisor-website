@@ -38,7 +38,7 @@ const Header = ({ centeredHeader=false }) => {
             </ul>
             */}
           </li>
-          <li class="Header-nav-item"><h4><a href="/media">Media</a></h4></li>
+          <li class="Header-nav-item"><h4><a href="/blog">Blog</a></h4></li>
           <li class="Header-nav-item Contact"><h4><a href="/interest_form">Subscribe</a></h4></li>
         </ul>
         <div class="Header-nav-mobile">
@@ -47,7 +47,7 @@ const Header = ({ centeredHeader=false }) => {
             <li class="Header-dropdown-item"><h4><a href="/about">About</a></h4></li>
             <li class="Header-dropdown-item"><h4><a href="/industry">Industry</a></h4></li>
             <li class="Header-dropdown-item Services"><h4><a href="/services">Services</a></h4></li>
-            <li class="Header-dropdown-item"><h4><a href="/media">Media</a></h4></li>
+            <li class="Header-dropdown-item"><h4><a href="/blog">Blog</a></h4></li>
             <li class="Header-dropdown-item Contact-mobile"><h4><a href="/interest_form">Subscribe</a></h4></li>
           </ul>
         </div>

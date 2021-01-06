@@ -1,0 +1,133 @@
+#blog-landing {
+/*	position: absolute;
+	width: 1440px;
+	height: 850px;
+	left: 0px;
+	top: 0px;*/
+	// background-attachment: fixed;
+	background-image: url("../images/blog_title_image.png");
+	background-position: center center;
+	background-size: cover;
+	min-height: 100vh;
+	position: relative;
+	text-align: center;
+}
+
+.blog-landing-container {
+	position: absolute;
+	top: 10%;
+	bottom: 0px;
+	left: 50%;
+	width: 100%;
+	transform: translateX(-50%);
+}
+
+.blog-title-1 {
+	text-align: left;
+	padding-left: 0em;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	width: 60%;
+	transform: translateY(-50%);
+	color: #000000;
+	text-shadow: none;
+}
+
+.blog-title-2 {
+	text-align: left;
+	padding-left: 0em;
+	position: absolute;
+	top: 55%;
+	left: 10%;
+	width: 25%;
+	transform: translateY(-50%);
+	color: #000000;
+	text-shadow: none;
+}
+
+.posts {
+	margin-top: 1rem;
+}
+
+@media screen and (max-width: 1350px) {
+  .blog-title-1 {
+  	top: 35%;
+    font-size: 7.5em;
+    line-height: 1em;
+  }
+
+  .blog-title-2 {
+    top: 65%
+  }
+}
+
+.posts {
+	width: 80%;
+	margin-top: 4em;
+	display: flex;
+	padding: 0em;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.post {
+	padding: 1em 1em 1em 1em;
+	display: flex;
+	text-align: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-radius: 7px;
+	text-decoration: none;
+}
+	.post:hover {
+		background: rgba(255, 255, 255, 0.2)
+	}
+
+.post-image-wrapper {
+	margin: 2em 2em 2em 2em;
+}
+
+.post-preview-wrapper {
+	min-width: 300px;
+	max-width: 400px;
+	text-align: left;
+	margin: 2em 2em 2em 2em;
+}
+
+.post-description-wrapper {
+	text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  .blog-title-1 {
+    font-size: 7.5em;
+    line-height: 1em;
+  }
+
+  .blog-title-2 {
+    top: 70%
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-title-1 {
+  	top: 35%;
+    font-size: 7.5em;
+    line-height: 1em;
+  }
+
+  .blog-title-2 {
+    color: transparent;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog-title-1 {
+  	top: 40%;
+    font-size: 6.5em;
+    line-height: 1em;
+  }
+}
